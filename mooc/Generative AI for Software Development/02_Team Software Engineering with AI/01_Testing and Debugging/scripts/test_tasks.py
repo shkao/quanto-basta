@@ -1,6 +1,7 @@
 import pytest
 from tasks import add_task, remove_task, list_tasks
 
+
 def test_add_task():
     # Test adding a valid task
     assert add_task("Write tests") == "Task 'Write tests' added."
@@ -9,6 +10,7 @@ def test_add_task():
     # Test adding an empty task
     assert add_task("") == "Cannot add an empty task."
     assert "" not in list_tasks()
+
 
 def test_remove_task():
     # Add a task to remove
@@ -21,6 +23,7 @@ def test_remove_task():
 
     # Test removing a non-existing task
     assert remove_task("Non-existing task") == "Task not found."
+
 
 def test_list_tasks():
     # Clear tasks and add new ones
