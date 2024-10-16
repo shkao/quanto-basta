@@ -95,3 +95,37 @@ What high-level software design paradigms should I consider for this project?
 * **When to Use?**
   * Use **JSON** for readability and cross-language compatibility.
   * Use **Pickle** for complex Python objects and internal Python applications.
+
+## Using the DALL-E API
+
+### Code to call DALL-E
+
+**Prompt:** You are a deep expert on the OpenAI ecosystem, including the client libraries, REST endpoints, and any other way of accessing functionality of GPT, DALL-E, and other models.
+
+Please create easy to read, easy to follow code that will call DALL-E to generate an image. The code should be in Python, and all parameters should be in an external file that the Python code reads.
+
+Please use the most up-to-date design pattern.
+
+## Implementing CDD
+
+### Externalizing parameters
+
+**Prompt:** Can you modify this code to fix two issues:
+
+First, regardless of how many images we ask for, you only parse out 1 image from the response data.
+
+Second, can you download the images from the URL and save them locally. Add the desired filename to the JSON file, and save them as `<filename>1.PNG`, `<filename>2.PNG` etc.
+
+### Adding a timeout
+
+**Prompt:** Update the configuration file and app code to include a timeout for the API calls.
+
+## Serializing results
+
+### Adding parameters and serializing results
+
+**Prompt:** Can you make 2 more modifications:
+
+First, can you add the style and quality parameters to the payload configuration, and load them to pass to the backend?
+
+Then, after the files are downloaded, can you pickle them up along with the configuration file?
