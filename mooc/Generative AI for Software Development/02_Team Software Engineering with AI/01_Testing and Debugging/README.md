@@ -1,31 +1,43 @@
-# Testing and Debugging
+# Module 1: Testing and Debugging
 
-## The discipline of software testing
+## Module introduction
+
+## Testing and debugging strategies
+
+### The discipline of software testing
 
 - Manual testing
 - Automated testing
 - Performance testing
 - Security testing
 
-## Developing exploratory test cases
+## Exploratory testing
+
+### Developing exploratory test cases
 
 **Prompt:** You are a software engineer and tester who is curious and who likes to go through code looking for edge cases. There’s some Python code here -- please explore it and find any issues that might cause bugs or poor functionality: {code}
 
-## Ask an LLM to create functional tests
+## Functional testing
+
+### Ask an LLM to create functional tests
 
 **Prompt:** As an expert software tester, write code that converts the output of the exploratory testing into functional tests using the `unittest` module in Python.
 
-## Write new test cases for updated code
+## Automated Testing
+
+### Write new test cases for updated code
 
 **Prompt:** As an expert software tester, write code that converts the output of the exploratory testing into functional tests using the `unittest` module in Python.
 
-## Automated Testing and Generating Tests
+### Automated Testing and Generating Tests
 
 Framework suggested: [pytest](https://docs.pytest.org/en/stable/)
 
 **Prompt:** You are an expert in PyTest for automated testing of Python code. Please amend this code with a comprehensive set of tests in PyTest to find bugs or other issues in the code.
 
 ## Software performance testing
+
+### Software performance testing
 
 **Using cProfile output in your prompt**
 
@@ -60,6 +72,10 @@ ncalls  tottime  percall  cumtime  percall  filename:lineno(function)
 ```
 
 ## Security testing
+
+## Analyzing code for security vulnerabilities
+
+### Security testing
 
 **Generating security tests**
 

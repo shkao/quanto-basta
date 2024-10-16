@@ -1,13 +1,17 @@
-# Documentation
+# Module 2: Documentation
 
-## Benefits of good code documentation
+## Module introduction
+
+### Benefits of good code documentation
 
 * Improves code readability
 * Prevents technical debt
 * Helps others learn to use your code
 * Increases overall code quality
 
-## Principles of good documentation writing
+## Principles of good documentation
+
+### Notes
 
 * Be clear and concise
 * Avoid redundancy
@@ -15,13 +19,17 @@
 * Follow language-specific conventions
 * Keep documentation up to date
 
+## Inline comments
+
 ## Documentation comments
+
+### Notes
 
 * Special comments to explain purpose and usage of code
 * More detailed than inline comments
 * Used to generate automated documentation
 
-## Docstrings
+### Docstrings
 
 1. **Google style**:
 
@@ -81,5 +89,11 @@
 
 ## Automated documentation tools
 
+### Automated documentation tools
+
 * [Sphinx](https://www.sphinx-doc.org/en/master/)
 * [JSDoc](https://jsdoc.app/) (for Java)
+
+## Documentation in other coding languages
+
+## Documentation for life in production
