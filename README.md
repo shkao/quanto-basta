@@ -10,4 +10,5 @@
 ### Developing
 
 - [ ] Fork and refactor [Bioteque](https://gitlabsbnb.irbbarcelona.org/bioteque/bioteque)
-- [ ] Compare and use Bioteque for [TxGNN](https://github.com/mims-harvard/TxGNN)
+- [ ] Implement [GraphRAG](https://github.com/microsoft/graphrag) or [LightRAG](https://github.com/HKUDS/LightRAG) to Bioteque
+- [ ] Compare and try using Bioteque as data source for [TxGNN](https://github.com/mims-harvard/TxGNN)
