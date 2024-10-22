@@ -50,8 +50,6 @@
   - \( f_u = 0.1 \) at lower \( C_p \)
   - \( f_u = 0.5 \) at higher \( C_p \)
 
-## Practice Quiz: Knowledge Check
-
 ## Drug-Drug Interactions
 
 ## Pharmacokinetic/Pharmacodynamic Relationships
