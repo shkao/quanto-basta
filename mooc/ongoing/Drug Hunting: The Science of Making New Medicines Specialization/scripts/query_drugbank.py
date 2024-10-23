@@ -28,6 +28,12 @@ def get_drugbank_id(drug_common_name):
 def main():
     question = "What is the fu of ibuprofen (acidic)?"
     drug_name = extract_drug_name(question)
+    drugbank_id = get_drugbank_id(drug_name)
+
+    if not drugbank_id:
+        print(f"No DrugBank ID found for drug: {drug_name}")
+        return
+
     graph_config = {
         "llm": {
             "api_key": os.getenv("OPENAI_API_KEY"),
@@ -45,7 +51,7 @@ def main():
             "the fu to 2 decimal places if necessary. If PPB is reported as a 'less than' (<)\n"
             "or 'greater than' (>) value, use the provided PPB value to calculate fu."
         ),
-        source=f"https://go.drugbank.com/drugs/{get_drugbank_id(drug_name)}",
+        source=f"https://go.drugbank.com/drugs/{drugbank_id}",
         config=graph_config,
     )
     result = smart_scraper_graph.run()
