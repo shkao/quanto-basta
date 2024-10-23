@@ -6,7 +6,7 @@
 
 - [ ] Reading digest for the [TPMI paper](https://www.medrxiv.org/content/10.1101/2024.10.14.24315279v1)
 - [ ] Reading digest for polygenic risk score and [MILTON](https://www.nature.com/articles/s41588-024-01898-1)
-
+- [ ] Reading digest for [benchmarking SL prediction methods](https://www.nature.com/articles/s41467-024-52900-7)
 - [ ] Reading digest for [iPanda](https://www.nature.com/articles/ncomms13427)
   - [ ] [Zhavoronkov et al. 2022](https://communities.springernature.com/posts/after-the-paper-from-paper-to-industrial-scale-platform-a-7-year-behind-the-paper-journey-from-ipanda-to-pandaomics-ai-powered-target-discovery-platform)
 - [ ] Reading digest for [PandaOmics](https://www.cell.com/trends/pharmacological-sciences/fulltext/S0165-6147(23)00137-2)
