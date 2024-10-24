@@ -3,6 +3,7 @@ import ollama
 import asyncio
 import argparse
 from langchain_community.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import UnstructuredMarkdownLoader
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -33,7 +34,12 @@ async def load_pdf(source):
     if not source:
         raise ValueError("No source provided for the PDF.")
     if os.path.isfile(source):
-        loader = PyPDFLoader(source)
+        if source.endswith(".pdf"):
+            loader = PyPDFLoader(source)
+        elif source.endswith(".md"):
+            loader = UnstructuredMarkdownLoader(source)
+        else:
+            raise ValueError("Unsupported file type.")
     else:
         if source.startswith("http") or source in DRUG_URLS:
             loader = PyPDFLoader(
@@ -74,7 +80,10 @@ Answer:"""
 async def main():
     parser = argparse.ArgumentParser(description="Process a PDF and question.")
     parser.add_argument(
-        "--source", type=str, default=None, help="URL or path of the PDF"
+        "--source",
+        type=str,
+        default=None,
+        help="URL or path of the PDF or markdown files",
     )
     parser.add_argument("--question", type=str, required=True, help="Question to ask")
     args = parser.parse_args()
