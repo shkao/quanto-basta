@@ -1,5 +1,7 @@
+import os
 import ollama
 import asyncio
+import argparse
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
@@ -27,17 +29,21 @@ def extract_drug_name(question):
     return response["message"]["content"].lower()
 
 
-async def load_pdf(url):
-    if not url:
-        raise ValueError("No URL found for the specified drug.")
-    loader = PyPDFLoader(url)
+async def load_pdf(source):
+    if not source:
+        raise ValueError("No source provided for the PDF.")
+    if os.path.isfile(source):
+        loader = PyPDFLoader(source)
+    else:
+        loader = PyPDFLoader(DRUG_URLS.get(source))
     return await loader.aload()
 
 
-async def process_question(question):
-    drug_name = extract_drug_name(question)
-    drug_url = DRUG_URLS.get(drug_name)
-    return await load_pdf(drug_url)
+async def process_question(question, source):
+    if source is None:
+        drug_name = extract_drug_name(question)
+        source = DRUG_URLS.get(drug_name)
+    return await load_pdf(source)
 
 
 async def create_vector_store(pages, question):
@@ -61,10 +67,16 @@ Answer:"""
 
 
 async def main():
-    question = "What side effects may occur with adalimumab at a frequency of >10%?"
-    pages = await process_question(question)
-    docs = await create_vector_store(pages, question)
-    response = await get_llm_response(docs, question)
+    parser = argparse.ArgumentParser(description="Process a PDF and question.")
+    parser.add_argument(
+        "--source", type=str, default=None, help="URL or path of the PDF"
+    )
+    parser.add_argument("--question", type=str, required=True, help="Question to ask")
+    args = parser.parse_args()
+
+    pages = await process_question(args.question, args.source)
+    docs = await create_vector_store(pages, args.question)
+    response = await get_llm_response(docs, args.question)
     print(response.content)
 
 
