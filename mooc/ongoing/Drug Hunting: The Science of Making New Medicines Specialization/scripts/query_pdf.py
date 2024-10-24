@@ -35,7 +35,12 @@ async def load_pdf(source):
     if os.path.isfile(source):
         loader = PyPDFLoader(source)
     else:
-        loader = PyPDFLoader(DRUG_URLS.get(source))
+        if source.startswith("http") or source in DRUG_URLS:
+            loader = PyPDFLoader(
+                source if source.startswith("http") else DRUG_URLS.get(source)
+            )
+        else:
+            raise ValueError("Invalid source provided for the PDF.")
     return await loader.aload()
 
 
