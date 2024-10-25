@@ -3,7 +3,7 @@ import asyncio
 import argparse
 from langchain_community.document_loaders import (
     PyPDFLoader,
-    UnstructuredHTMLLoader,
+    WebBaseLoader,
     UnstructuredMarkdownLoader,
 )
 from langchain_community.vectorstores import FAISS
@@ -23,15 +23,13 @@ async def load_document(source):
         elif source.endswith(".md"):
             loader = UnstructuredMarkdownLoader(source)
     elif source.startswith("http"):
-        try:
-            loader = PyPDFLoader(source)
-        except Exception:
-            loader = UnstructuredHTMLLoader(source)
+        loader = WebBaseLoader(source)
 
-    if not loader:
+    if loader is None:
         raise ValueError("Invalid or unsupported source.")
 
-    return await loader.aload()
+    docs = await loader.aload() if not source.startswith("http") else loader.load()
+    return docs
 
 
 async def process_question(question, source=None):
