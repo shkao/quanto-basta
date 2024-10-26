@@ -12,6 +12,16 @@ from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.prompts import ChatPromptTemplate
+from rich.console import Console
+from rich.markdown import Markdown
+
+
+def get_loader(file_extension):
+    loaders = {
+        ".pdf": PyPDFLoader,
+        ".md": UnstructuredMarkdownLoader,
+    }
+    return loaders.get(file_extension)
 
 
 async def load_document(source):
@@ -19,15 +29,9 @@ async def load_document(source):
         raise ValueError("No source provided.")
 
     if os.path.isfile(source):
-        file_extension = os.path.splitext(source)[1]
-        loader = {
-            ".pdf": PyPDFLoader,
-            ".md": UnstructuredMarkdownLoader,
-        }.get(file_extension)
-
+        loader = get_loader(os.path.splitext(source)[1])
         if loader is None:
             raise ValueError("Invalid or unsupported file type.")
-
         return await loader(source).aload()
 
     if source.startswith("http"):
@@ -64,10 +68,8 @@ async def process_image(image_path, question):
 
 async def process_question(question, source=None):
     if source and os.path.isfile(source):
-        file_extension = os.path.splitext(source)[1]
-        if file_extension in [".jpg", ".jpeg", ".png"]:
+        if os.path.splitext(source)[1] in [".jpg", ".jpeg", ".png"]:
             return await process_image(source, question)
-
     return await load_document(source)
 
 
@@ -103,7 +105,9 @@ async def main():
     else:
         docs = await create_vector_store(pages, args.question)
         response = await get_llm_response(docs, args.question)
-    print(response.content if hasattr(response, "content") else response)
+
+    console = Console()
+    console.print(Markdown(getattr(response, "content", response)))
 
 
 if __name__ == "__main__":
