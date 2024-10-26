@@ -1,6 +1,8 @@
 import os
 import asyncio
 import argparse
+import base64
+from openai import OpenAI
 from langchain_community.document_loaders import (
     PyPDFLoader,
     WebBaseLoader,
@@ -16,23 +18,56 @@ async def load_document(source):
     if not source:
         raise ValueError("No source provided.")
 
-    loader = None
     if os.path.isfile(source):
-        if source.endswith(".pdf"):
-            loader = PyPDFLoader(source)
-        elif source.endswith(".md"):
-            loader = UnstructuredMarkdownLoader(source)
-    elif source.startswith("http"):
-        loader = WebBaseLoader(source)
+        file_extension = os.path.splitext(source)[1]
+        loader = {
+            ".pdf": PyPDFLoader,
+            ".md": UnstructuredMarkdownLoader,
+        }.get(file_extension)
 
-    if loader is None:
-        raise ValueError("Invalid or unsupported source.")
+        if loader is None:
+            raise ValueError("Invalid or unsupported file type.")
 
-    docs = await loader.aload() if not source.startswith("http") else loader.load()
-    return docs
+        return await loader(source).aload()
+
+    if source.startswith("http"):
+        return WebBaseLoader(source).load()
+
+    raise ValueError("Invalid or unsupported source.")
+
+
+def encode_image(image_path):
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode("utf-8")
+
+
+async def process_image(image_path, question):
+    client = OpenAI()
+    base64_image = encode_image(image_path)
+    response = client.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": question},
+                    {
+                        "type": "image_url",
+                        "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"},
+                    },
+                ],
+            }
+        ],
+    )
+    return response.choices[0].message.content
 
 
 async def process_question(question, source=None):
+    if source and os.path.isfile(source):
+        file_extension = os.path.splitext(source)[1]
+        if file_extension in [".jpg", ".jpeg", ".png"]:
+            return await process_image(source, question)
+
     return await load_document(source)
 
 
@@ -63,9 +98,12 @@ async def main():
     args = parser.parse_args()
 
     pages = await process_question(args.question, args.source)
-    docs = await create_vector_store(pages, args.question)
-    response = await get_llm_response(docs, args.question)
-    print(response.content)
+    if isinstance(pages, str):  # If the result is a final answer from process_image
+        response = pages
+    else:
+        docs = await create_vector_store(pages, args.question)
+        response = await get_llm_response(docs, args.question)
+    print(response.content if hasattr(response, "content") else response)
 
 
 if __name__ == "__main__":
