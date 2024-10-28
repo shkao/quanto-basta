@@ -18,6 +18,8 @@ def extract_and_create_files(markdown_file):
     print(f"Directory 'transcripts' created or already exists.")
 
     for index, header in enumerate(headers, start=1):
+        if re.search(r"\b(welcome|farewell)\b", header, re.IGNORECASE):
+            continue
         sanitized_header = re.sub(r"[\/,]", "", header)
         filename = f"{index:02d}_{sanitized_header}.txt"
         filepath = os.path.join("transcripts", filename)
