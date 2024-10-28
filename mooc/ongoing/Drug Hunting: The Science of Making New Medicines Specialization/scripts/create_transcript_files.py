@@ -4,6 +4,11 @@ import re
 
 
 def extract_and_create_files(markdown_file):
+    if not markdown_file.endswith(".md"):
+        raise ValueError(
+            "The input file must be a markdown file with a '.md' extension."
+        )
+
     with open(markdown_file, "r") as file:
         content = file.read()
 
