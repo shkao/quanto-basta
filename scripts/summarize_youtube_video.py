@@ -1,3 +1,20 @@
+"""Script to download YouTube videos, transcribe audio, and generate summaries.
+
+This script provides functionality to:
+- Download audio from YouTube videos
+- Convert audio to required format
+- Transcribe audio using Whisper
+- Generate summaries using LiteLLM
+- Save transcripts and summaries to files
+
+The workflow includes:
+1. Downloading audio from a YouTube URL
+2. Converting audio to proper format for transcription
+3. Transcribing audio to text
+4. Generating an AI summary of the transcription
+5. Saving both transcript and summary to files
+"""
+
 import argparse
 import logging
 import os
@@ -21,7 +38,18 @@ logging.basicConfig(
 
 
 def download_audio(youtube_url, output_directory):
-    """Download audio from YouTube and save as mp3."""
+    """Download audio from a YouTube video and save as MP3.
+
+    Args:
+        youtube_url (str): URL of the YouTube video to download
+        output_directory (str): Directory path to save the downloaded audio
+
+    Returns:
+        str: Path to the downloaded audio file
+
+    Raises:
+        Exception: If download fails for any reason
+    """
     logging.info(f"Downloading audio from {youtube_url}")
     audio_output_path = os.path.join(output_directory, "audio.mp3")
 
@@ -49,7 +77,20 @@ def download_audio(youtube_url, output_directory):
 
 
 def convert_audio(audio_input_path, output_directory):
-    """Convert the downloaded audio file with ffmpeg."""
+    """Convert downloaded audio file to format required by Whisper.
+
+    Converts audio to 16kHz mono MP3 format using ffmpeg.
+
+    Args:
+        audio_input_path (str): Path to input audio file
+        output_directory (str): Directory to save converted audio
+
+    Returns:
+        str: Path to converted audio file
+
+    Raises:
+        RuntimeError: If ffmpeg conversion fails
+    """
     converted_audio_path = os.path.join(output_directory, "audio_converted.mp3")
     command = f'ffmpeg -i "{audio_input_path}" -ar 16000 -ac 1 -map 0:a "{converted_audio_path}"'
     if os.system(command) != 0:
@@ -59,7 +100,17 @@ def convert_audio(audio_input_path, output_directory):
 
 
 def transcribe_audio(file_path):
-    """Transcribe audio using Whisper API."""
+    """Transcribe audio file using Whisper model.
+
+    Args:
+        file_path (str): Path to audio file to transcribe
+
+    Returns:
+        str: Transcribed text from audio
+
+    Raises:
+        FileNotFoundError: If audio file does not exist
+    """
     logging.info(f"Starting transcription for {file_path}")
     if not os.path.isfile(file_path):
         raise FileNotFoundError(f"Audio file not found: {file_path}")
@@ -76,7 +127,15 @@ def transcribe_audio(file_path):
 
 
 def save_to_file(content, file_path):
-    """Save content to a file."""
+    """Save content to a file with UTF-8 encoding.
+
+    Args:
+        content (str): Content to write to file
+        file_path (str): Path where file should be saved
+
+    Raises:
+        IOError: If file cannot be written
+    """
     try:
         with open(file_path, "w", encoding="utf-8") as file:
             file.write(content)
@@ -87,7 +146,17 @@ def save_to_file(content, file_path):
 
 
 def read_from_file(file_path):
-    """Read content from a file."""
+    """Read content from a file with UTF-8 encoding.
+
+    Args:
+        file_path (str): Path to file to read
+
+    Returns:
+        str: Content of the file
+
+    Raises:
+        IOError: If file cannot be read
+    """
     logging.info(f"Reading content from {file_path}")
     try:
         with open(file_path, "r", encoding="utf-8") as file:
@@ -98,7 +167,17 @@ def read_from_file(file_path):
 
 
 def create_summary(prompt):
-    """Generate a summary using LiteLLM and convert cost from USD to TWD."""
+    """Generate a summary using LiteLLM and calculate costs.
+
+    Args:
+        prompt (str): Prompt text to send to LiteLLM
+
+    Returns:
+        str: Generated summary text
+
+    Raises:
+        Exception: If summary generation fails
+    """
     logging.info("Generating summary using LiteLLM")
     messages = [{"content": prompt, "role": "user"}]
     try:
@@ -116,7 +195,17 @@ def create_summary(prompt):
 
 
 def fetch_video_title_and_date(youtube_url):
-    """Get the YouTube video title and upload date."""
+    """Fetch title and upload date of YouTube video.
+
+    Args:
+        youtube_url (str): URL of YouTube video
+
+    Returns:
+        tuple: (video_title, upload_date)
+
+    Raises:
+        Exception: If video info cannot be fetched
+    """
     ydl_options = {
         "quiet": True,
         "skip_download": True,
@@ -133,14 +222,28 @@ def fetch_video_title_and_date(youtube_url):
 
 
 def sanitize_string(input_string):
-    """Sanitize a string by removing unwanted characters."""
+    """Sanitize string by removing special characters.
+
+    Args:
+        input_string (str): String to sanitize
+
+    Returns:
+        str: Sanitized string containing only alphanumeric chars and spaces/underscores
+    """
     return "".join(
         char for char in input_string if char.isalnum() or char in (" ", "_")
     ).rstrip()
 
 
 def handle_youtube_audio(youtube_url):
-    """Main function to handle the workflow."""
+    """Main workflow function to process YouTube video.
+
+    Downloads video audio, transcribes it, generates summary, and saves results.
+    Creates a directory named with video upload date and sanitized title.
+
+    Args:
+        youtube_url (str): URL of YouTube video to process
+    """
     sanitized_url = youtube_url.replace("\\", "")
     logging.info(f"Processing YouTube audio for URL: {sanitized_url}")
     try:
@@ -199,7 +302,10 @@ def handle_youtube_audio(youtube_url):
 
 
 def process_channel_videos():
-    """Process a single YouTube video URL provided via command line."""
+    """Process YouTube video URL from command line arguments.
+
+    Sets up argument parser and calls handle_youtube_audio with provided URL.
+    """
     parser = argparse.ArgumentParser(description="Process a YouTube video URL.")
     parser.add_argument(
         "youtube_url", type=str, help="The YouTube video URL to process."

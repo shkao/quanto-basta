@@ -1,3 +1,21 @@
+"""Convert WAV audio files to MP3 format with volume adjustment.
+
+This script processes WAV files from a source directory and converts them to MP3
+format in a destination directory. It applies a volume boost of 1.5x during the
+conversion.
+
+The script:
+- Looks for .wav files in ../papers/audio relative to the script location
+- Converts them to .mp3 format using ffmpeg
+- Saves the converted files to ~/Dropbox/NotebookLM/audio
+- Only processes files that haven't already been converted
+- Applies a 1.5x volume increase during conversion
+
+Requirements:
+    - ffmpeg must be installed and available in the system PATH
+    - Source WAV files must be in a valid format supported by ffmpeg
+"""
+
 import os
 import subprocess
 

@@ -1,9 +1,34 @@
+"""Script to extract headers from markdown files and create transcript files.
+
+This script processes a markdown file, extracts level 2 headers (## Header), and creates
+individual transcript files for each header, excluding welcome/farewell headers.
+"""
+
 import argparse
 import os
 import re
 
 
 def extract_and_create_files(markdown_file):
+    """Extract headers from markdown file and create individual transcript files.
+
+    Processes a markdown file to find all level 2 headers (starting with ##) and creates
+    separate text files for each header in a 'transcripts' directory. Headers containing
+    'welcome' or 'farewell' (case-insensitive) are skipped.
+
+    Args:
+        markdown_file (str): Path to the input markdown file to process.
+
+    Raises:
+        ValueError: If the input file doesn't have a .md extension.
+
+    Example:
+        >>> extract_and_create_files("lecture.md")
+        Found 5 headers in the markdown file.
+        Directory 'transcripts' created or already exists.
+        Created file: transcripts/01_Introduction.txt with header: Introduction
+        ...
+    """
     if not markdown_file.endswith(".md"):
         raise ValueError(
             "The input file must be a markdown file with a '.md' extension."
@@ -29,6 +54,7 @@ def extract_and_create_files(markdown_file):
 
 
 def main():
+    """Parse command line arguments and execute the main script functionality."""
     parser = argparse.ArgumentParser(description="Process a markdown file.")
     parser.add_argument("markdown_file", type=str, help="Path to the markdown file")
     args = parser.parse_args()
