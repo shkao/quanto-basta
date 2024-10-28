@@ -7,6 +7,7 @@ from langchain_community.document_loaders import (
     PyPDFLoader,
     WebBaseLoader,
     UnstructuredMarkdownLoader,
+    TextLoader,
 )
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
@@ -20,6 +21,7 @@ def get_loader(file_extension):
     loaders = {
         ".pdf": PyPDFLoader,
         ".md": UnstructuredMarkdownLoader,
+        ".txt": TextLoader,
     }
     return loaders.get(file_extension)
 

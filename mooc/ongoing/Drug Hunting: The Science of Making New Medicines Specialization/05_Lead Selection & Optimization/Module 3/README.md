@@ -162,4 +162,120 @@ The figure shows binding interactions for both compounds in the active site, hig
 
 ## In vivo Pharmacology and Safety
 
-## Discovery Story
+### Learning objectives
+
+- **Describe considerations for animal disease models**
+- **Prioritize compounds based on biomarker data from in vivo models**
+- **List some key safety criteria monitored during drug hunting**
+
+### Pre-clinical in vivo studies
+
+- **Animal disease models track in vivo efficacy during optimization**  
+  *minimizes risk of clinical failure for an antimalarial*
+  
+- **Biomarker measurements quantify efficacy**
+
+- **Malaria treatment goal**  
+  *clear parasitic infection completely and quickly to minimize development of resistance*
+
+- **Disease models ideally are translatable to the human disease**
+
+- **Malaria translation challenge**  
+  *different malaria parasites infect different animal species*
+
+### Results from efficacy study
+
+| Entry | 1 × 30 mg/kg | | 1 × 100 mg/kg | | 3 × 30 mg/kg | |
+|-------|--------------|-------------|---------------|-------------|---------------|------------|
+|       | Activity drop (%) | Survival (d) | Activity drop (%) | Survival (d) | Activity drop (%) | Survival (d) |
+| **22**   | 99.5          | 16.3       | 99.4         | 14.0         | 99.8         | 17.7        |
+| **24**   | 99.0          | 15.0       | 99.1         | 16.7         | 99.7         | 17.0        |
+| **34**   | 47.0          | 6.3        | 97.0         | 6.7          | 66.0         | 7.0         |
+| **36**   | 90.0          | 7.0        | 99.3         | 9.7          | 99.7         | 12.0        |
+| **CQ**   | 99.5          | 9.0        | 99.6         | 12.5         | 99.8         | 13.6        |
+| **AS**   | 95.6          | 5.8        | 98.0         | 7.0          | 99.0         | 12.2        |
+
+- **Biomarker**: parasitemia reduction (activity drop)
+- **Reference**: Nagle, A., et al. *J. Med. Chem.* 2012, 55, 4244-4273.
+
+### In vitro toxicity studies
+
+- **hERG risk was reduced by 2-3-fold through N-substitution**  
+  *(as seen with compound 22)*
+
+- **Compound 22 was inactive against key CYP isoforms**, e.g., CYP3A4, CYP2C9, CYP2D6
+
+- **Compound 22 showed very low cytotoxicity** against a variety of mammalian cell lines
+
+## Discovery Story of KAF156
+
+### Learning objectives
+
+- **List some common steps in the lead optimization process**
+- **Identify structural changes within the antimalarial series**
+- **Describe optimized properties of KAF156 and its early clinical results**
+
+### Progression of the Antimalarial Project
+
+1. **Hit**
+   - Initial compound identified with potential activity.
+
+2. **Iterative process** (SAR: Structure-Activity Relationship)
+   - Cycle of optimization focusing on SAR and potency.
+
+3. **Early Leads**
+   - Compounds showing promising activity and safety profiles.
+
+4. **Mouse PK** (Pharmacokinetics)
+   - Testing the pharmacokinetics in mice to assess absorption, distribution, metabolism, and excretion (ADME).
+
+5. **Mouse efficacy**
+   - Assessing the compound's efficacy in mouse models.
+
+6. **Rodent & non-rodent PK**
+   - Evaluating pharmacokinetics in both rodent and non-rodent species.
+
+7. **In vivo safety**
+   - Safety testing in live animal models to identify any potential toxicities.
+
+### Hit → Lead → Clinical candidate
+
+- **Hit**: The initial compound identified with antimalarial potential.
+- **Lead**: The compound is optimized, improving its efficacy and safety.
+- **Clinical candidate**: The final optimized compound, KAF156, ready for clinical trials.
+
+### Optimization of Imidazolopiperazines
+
+- **Early Leads**:  
+  - Potency (IC₅₀): moderate (10-100 nM)
+  - Oral exposure: moderate
+  - Clearance (ER): poor (>0.6)
+  - Solubility: poor (<30 mM)
+  - Microsomal stability (ER): poor (>0.6)
+  - hERG (IC₅₀): moderate (5-30 μM)
+  - In vivo efficacy: moderate
+  - Rule of 5 compliance: good
+
+- **KAF156**:  
+  - Potency (IC₅₀): good (<10 nM)
+  - Oral exposure: good
+  - Clearance (ER): good (<0.3)
+  - Solubility: good (>100 mM)
+  - Microsomal stability (ER): good (<0.3)
+  - hERG (IC₅₀): good (>30 μM)
+  - In vivo efficacy: good
+  - Rule of 5 compliance: good
+
+KAF156 represents a significant optimization across several parameters, improving in areas like potency, clearance, solubility, and in vivo efficacy compared to the early leads.
+
+### Clinical efficacy & PK of KAF156
+
+- **Left graph**:  
+  - Depicts the decrease in **parasite count (per mm³)** over time (hours) after treatment with KAF156 in patients infected with *P. falciparum*.
+  - Shows rapid parasite clearance, with significant reductions observed within 48 hours.
+
+- **Right graph**:  
+  - Represents the **pharmacokinetic (PK) profile** of KAF156.
+  - The concentration of KAF156 (ng/mL) decreases over time, with a half-life indicated by a steady decline within the first 48 hours and further slow clearance up to 192 hours.
+
+- **Reference**: White, N. J. et al. *N. Engl. J. Med.* 2016, 375, 1152-1160.
