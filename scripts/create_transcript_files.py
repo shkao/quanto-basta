@@ -9,15 +9,16 @@ import os
 import re
 
 
-def extract_and_create_files(markdown_file):
+def extract_and_create_files(markdown_file, header_level=3):
     """Extract headers from markdown file and create individual transcript files.
 
-    Processes a markdown file to find all level 2 headers (starting with ##) and creates
+    Processes a markdown file to find headers of a specified level and creates
     separate text files for each header in a 'transcripts' directory. Headers containing
     'welcome' or 'farewell' (case-insensitive) are skipped.
 
     Args:
         markdown_file (str): Path to the input markdown file to process.
+        header_level (int, optional): The level of headers to extract. Defaults to 3.
 
     Raises:
         ValueError: If the input file doesn't have a .md extension.
@@ -37,13 +38,14 @@ def extract_and_create_files(markdown_file):
     with open(markdown_file, "r") as file:
         content = file.read()
 
-    headers = re.findall(r"^## (.+)$", content, re.MULTILINE)
+    header_pattern = f"^{'#' * header_level} (.+)$"
+    headers = re.findall(header_pattern, content, re.MULTILINE)
     print(f"Found {len(headers)} headers in the markdown file.")
     os.makedirs("transcripts", exist_ok=True)
     print(f"Directory 'transcripts' created or already exists.")
 
     for index, header in enumerate(headers, start=1):
-        if re.search(r"\b(welcome|farewell)\b", header, re.IGNORECASE):
+        if re.search(r"\b(farewell)\b", header, re.IGNORECASE):
             continue
         sanitized_header = re.sub(r"[\/,]", "", header)
         filename = f"{index:02d}_{sanitized_header}.txt"
