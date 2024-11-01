@@ -116,7 +116,7 @@ def append_summary_notes(zot, inbox_items):
         abstract = item["data"].get("abstractNote", "")
         if abstract:
             logger.debug(
-                f"Generating summary for item {item['data'].get('title', 'Untitled')}'."
+                f"Generating summary for item '{item['data'].get('title', 'Untitled')}'."
             )
             summary = summarize_abstract(abstract)
             if summary:
