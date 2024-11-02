@@ -6,6 +6,7 @@ import xml.etree.ElementTree as ET
 from iso4 import abbreviate
 from loguru import logger
 from pyzotero import zotero
+from impact_factor.core import Factor
 
 
 def create_zotero_instance(library_id=None, api_key=None):
@@ -136,8 +137,8 @@ def get_abstract(item):
                 response = requests.get(url)
                 response.raise_for_status()
                 abstract = response.text[
-                    :2000
-                ]  # Limit retrieved text to 2000 characters
+                    :2500
+                ]  # Limit retrieved text to 2500 characters
                 logger.debug(
                     f"Retrieved text from URL for item '{item['data'].get('title', 'Untitled')}'."
                 )
@@ -188,11 +189,10 @@ def delete_items_by_type(zot, item_type):
 
 def fill_missing_metadata(zot, inbox_items):
     for item in inbox_items:
+        title = item["data"].get("title", "Untitled")
         doi = item["data"].get("DOI")
         if not doi:
-            logger.warning(
-                f"Item '{item['data'].get('title', 'Untitled')}' has no DOI."
-            )
+            logger.warning(f"Item '{title}' has no DOI.")
             continue
 
         metadata = retrieve_data_by_doi(doi)
@@ -200,25 +200,41 @@ def fill_missing_metadata(zot, inbox_items):
             logger.warning(f"Could not retrieve metadata for DOI '{doi}'.")
             continue
 
-        current_abbrev_journal = item["data"].get("journalAbbreviation")
-        if not current_abbrev_journal:
-            abbrev_journal = metadata.get("journalAbbreviation")
-            if not abbrev_journal:
-                full_journal_name = metadata.get("publicationTitle")
-                if full_journal_name:  # Ensure full_journal_name is not None
-                    abbrev_journal = abbreviate(full_journal_name)
+        item = zot.item(item["key"])  # Re-fetch the item to ensure latest version
+        update_metadata_fields(zot, item, metadata, title)
 
-            if abbrev_journal:
-                item["data"]["journalAbbreviation"] = abbrev_journal
-                try:
-                    zot.update_item(item)
-                    logger.info(
-                        f"Updated journal abbreviation for item '{item['data'].get('title', 'Untitled')}'."
-                    )
-                except Exception as e:
-                    logger.error(
-                        f"Error updating item '{item['data'].get('title', 'Untitled')}': {e}"
-                    )
+
+def update_metadata_fields(zot, item, metadata, title):
+    fields_to_update = {
+        "shortTitle": get_impact_factor(metadata.get("publicationTitle")),
+        "journalAbbreviation": metadata.get("journalAbbreviation")
+        or abbreviate(metadata.get("publicationTitle")),
+    }
+    for field, value in fields_to_update.items():
+        update_field(zot, item, field, value, title, field)
+
+
+def update_field(zot, item, field, value, title, field_name):
+    if value and item["data"].get(field) != value:
+        item["data"][field] = value
+        try:
+            zot.update_item(item)
+            logger.info(f"Updated {field_name} for item '{title}'.")
+        except Exception as e:
+            if "modified since specified version" in str(e):
+                logger.warning(
+                    f"Version conflict for item '{title}', re-fetching and retrying update."
+                )
+                item = zot.item(
+                    item["key"]
+                )  # Re-fetch the item to get the latest version
+                item["data"][field] = value
+                zot.update_item(item)
+                logger.info(
+                    f"Successfully updated {field_name} for item '{title}' after retry."
+                )
+            else:
+                logger.error(f"Error updating item '{title}': {e}")
 
 
 @lru_cache(maxsize=None)
@@ -273,6 +289,12 @@ def retrieve_data_by_doi(doi):
         return None
 
 
+def get_impact_factor(journal_name):
+    factor_instance = Factor()
+    search_results = factor_instance.search(journal_name)
+    return search_results[0].get("factor", "") if search_results else None
+
+
 def main():
     try:
         zot = create_zotero_instance()
@@ -280,7 +302,7 @@ def main():
         # print(retrieve_data_by_doi("10.1093/nar/gks725"))
 
         inbox_items = get_inbox_items(zot)
-        fill_missing_metadata(zot, inbox_items)
+        # fill_missing_metadata(zot, inbox_items)
         append_summary_notes(zot, inbox_items)
     except Exception as e:
         logger.error(f"An error occurred in the main function: {e}")
