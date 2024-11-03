@@ -23,14 +23,15 @@ def get_collection_by_name(zot, collection_name=".Inbox"):
     logger.info(f"Fetching collection '{collection_name}' from Zotero.")
     try:
         collections = zot.everything(zot.collections())
-        return next(
-            (
-                collection
-                for collection in collections
-                if collection["data"].get("name") == collection_name
-            ),
-            None,
-        )
+        matched_collections = [
+            collection
+            for collection in collections
+            if collection["data"].get("name") == collection_name
+        ]
+        if not matched_collections:
+            logger.warning(f"Collection '{collection_name}' not found.")
+            return None
+        return matched_collections[0]  # Return the first matched collection
     except Exception as e:
         logger.error(f"Error fetching collections: {e}")
         return None
@@ -38,7 +39,7 @@ def get_collection_by_name(zot, collection_name=".Inbox"):
 
 def retrieve_items(zot, collection_key, excluded_types=None, target_type=None):
     try:
-        items = zot.collection_items(collection_key)
+        items = zot.everything(zot.collection_items(collection_key))
         if excluded_types:
             items = [
                 item
@@ -130,21 +131,21 @@ def has_existing_note(zot, item):
 
 def get_abstract(item):
     abstract = item["data"].get("abstractNote", "")
-    if not abstract or len(abstract) <= 150:
-        url = item["data"].get("url", "")
-        if url and "pubs.acs.org" not in url:
-            try:
-                response = requests.get(url)
-                response.raise_for_status()
-                abstract = response.text[
-                    :2500
-                ]  # Limit retrieved text to 2500 characters
-                logger.debug(
-                    f"Retrieved text from URL for item '{item['data'].get('title', 'Untitled')}'."
-                )
-            except requests.exceptions.RequestException as e:
-                logger.error(f"Error retrieving text from URL '{url}': {e}")
-                return ""
+    if abstract and len(abstract) > 150:
+        return abstract
+
+    url = item["data"].get("url", "")
+    if url and not any(domain in url for domain in ["pubs.acs.org", "www.cell.com"]):
+        try:
+            response = requests.get(url)
+            response.raise_for_status()
+            abstract = response.text[:5000]  # Limit retrieved text to 5000 characters
+            logger.debug(
+                f"Retrieved text from URL for item '{item['data'].get('title', 'Untitled')}'."
+            )
+        except requests.exceptions.RequestException as e:
+            logger.error(f"Error retrieving text from URL '{url}': {e}")
+            return ""
     return abstract
 
 
@@ -205,9 +206,10 @@ def fill_missing_metadata(zot, inbox_items):
 
 
 def update_metadata_fields(zot, item, metadata, title):
+    publication_title = metadata.get("publicationTitle", "")
     fields_to_update = {
         "journalAbbreviation": metadata.get("journalAbbreviation")
-        or abbreviate(metadata.get("publicationTitle")),
+        or abbreviate(publication_title or ""),
     }
     for field, value in fields_to_update.items():
         update_field(zot, item, field, value, title, field)
@@ -253,7 +255,7 @@ def retrieve_data_by_doi(doi):
 
         def extract_text(element, xpath):
             found_element = element.find(xpath, namespaces=namespaces)
-            return found_element.text if found_element is not None else None
+            return found_element.text if found_element is not None else ""
 
         article_title = extract_text(xml_root, ".//ns:title")
         article_authors = [
@@ -298,9 +300,10 @@ def main():
     try:
         zot = create_zotero_instance()
         # delete_items_by_type(zot, "note")
-        # print(retrieve_data_by_doi("10.1093/nar/gks725"))
 
         inbox_items = get_inbox_items(zot)
+        logger.info(f"Total number of items: {len(inbox_items)}")
+
         fill_missing_metadata(zot, inbox_items)
         append_summary_notes(zot, inbox_items)
     except Exception as e:
