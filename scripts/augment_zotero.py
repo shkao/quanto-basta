@@ -132,7 +132,7 @@ def get_abstract(item):
     abstract = item["data"].get("abstractNote", "")
     if not abstract or len(abstract) <= 150:
         url = item["data"].get("url", "")
-        if url:
+        if url and "pubs.acs.org" not in url:
             try:
                 response = requests.get(url)
                 response.raise_for_status()
@@ -206,7 +206,6 @@ def fill_missing_metadata(zot, inbox_items):
 
 def update_metadata_fields(zot, item, metadata, title):
     fields_to_update = {
-        "shortTitle": get_impact_factor(metadata.get("publicationTitle")),
         "journalAbbreviation": metadata.get("journalAbbreviation")
         or abbreviate(metadata.get("publicationTitle")),
     }
@@ -302,7 +301,7 @@ def main():
         # print(retrieve_data_by_doi("10.1093/nar/gks725"))
 
         inbox_items = get_inbox_items(zot)
-        # fill_missing_metadata(zot, inbox_items)
+        fill_missing_metadata(zot, inbox_items)
         append_summary_notes(zot, inbox_items)
     except Exception as e:
         logger.error(f"An error occurred in the main function: {e}")
