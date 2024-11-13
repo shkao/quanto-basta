@@ -3,14 +3,18 @@ import re
 import json
 import pymupdf4llm
 from openai import OpenAI
-
-client = OpenAI()
+from docling.document_converter import DocumentConverter
 
 
 def extract_pdf_text(pdf_file):
-    pdf_text = pymupdf4llm.to_markdown(pdf_file)
+    try:
+        pdf_text = pymupdf4llm.to_markdown(pdf_file)
+    except Exception:
+        converter = DocumentConverter()
+        result = converter.convert(pdf_file)
+        pdf_text = result.document.export_to_markdown()
+
     pdf_text = re.sub(r"\[\d+(?:,\s*\d+)*(?:–\d+)?\]", "", pdf_text)
-    pdf_text = re.split(r"## References", pdf_text)[0]
     return pdf_text
 
 
@@ -61,6 +65,8 @@ def prepare_training_dataset(input_dir="data", output_filename="deepdive.jsonl")
 
 
 def upload_and_train_model(output_filename):
+    client = OpenAI()
+
     with open(output_filename, "rb") as file:
         uploaded_file = client.files.create(file=file, purpose="fine-tune")
     client.fine_tuning.jobs.create(
