@@ -18,7 +18,7 @@
   - [ ] [Zhavoronkov et al. 2022](https://communities.springernature.com/posts/after-the-paper-from-paper-to-industrial-scale-platform-a-3-year-behind-the-paper-journey-from-gentrl-to-chemistry42)
 - [ ] Reading digest for [inClinico](https://ascpt.onlinelibrary.wiley.com/doi/10.1002/cpt.3008) -->
 
-#### Books
+<!-- #### Books
 
 - [ ] The Pragmatic Programmer by Dave Thomas & Andy Hunt
 - [ ] The Mythical Man-Month by Fred Brooks
@@ -34,3 +34,11 @@
 - [ ] Fork and refactor [Bioteque](https://gitlabsbnb.irbbarcelona.org/bioteque/bioteque)
 - [ ] Implement [GraphRAG](https://github.com/microsoft/graphrag) or [LightRAG](https://github.com/HKUDS/LightRAG) for Bioteque
 - [ ] Compare and try using Bioteque as the data source for [TxGNN](https://github.com/mims-harvard/TxGNN)
+
+### Certificates
+
+- 證券商業務員
+- 期貨商業務員
+- 投信投顧業務員
+- 證券商高級業務員
+- 金融市場常識與職業道德 -->
