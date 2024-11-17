@@ -1,0 +1,124 @@
+Welcome back. In
+the last lesson, we learned what messenger RNAs are and their general makeup. In this lesson, we'll learn how mRNAs function as the
+blueprints for proteins. Please take a moment to review the learning objectives
+for this lesson. Hopefully, you'll remember that the m in mRNA stands
+for messenger. These messages are
+in the form of the genetic code.
+What is a code? A code is a set of symbols
+that can be variously arranged in a linear sequence
+to convey information. One example is the binary
+code used by computers, which consists of only two
+symbols, one and zero. Other examples are
+written human languages like Greek and English. Whereas written Greek uses 24 different symbols or
+letters, English has 26. In both languages,
+these letters can be variously arranged to
+form words and sentences. We've already learned
+that messenger RNAs are long chains of four
+building blocks: A, C, G, and U, which of these building blocks or nucleotides are present, and the order in which
+they are arranged along the chain forms a
+four letter language, the genetic code, or
+the language of life. Just like something written in binary computer code
+or Greek needs to be translated to be understood by someone who can
+only read English, the four-part genetic
+code of mRNAs needs to be translated into the 20-part
+amino acid code of proteins. Thus, the biological process
+of making proteins using instructions encoded in
+mRNA is called translation. Now, let's learn about the
+cellular machinery that performs this translation
+process. The ribosome. The tiny molecular machine that reads the
+information stored in mRNA and translates it into a protein is called a ribosome. A ribosome moves along the mRNA and spits out the new
+or nascent protein. Thus, ribosomes are your
+internal protein factories. Here, we're watching one
+ribosome manufacturing one protein on one mRNA
+molecule, but really, this scene is more realistic
+of what is actually going on inside your
+cells with many, many ribosomes working on
+lots of mRNAs simultaneously. Let's pause here and
+watch for a while. Remarkably, in order to make all the proteins
+your body requires, each one of your cells contains millions of
+ribosomes, hard at work, manufacturing billions
+of protein molecules from hundreds of thousands
+of mRNA molecules. Remember that your
+body is composed of over 30 trillion cells, so let's do some math. Thirty trillion cells times
+a million ribosomes per cell comes to 30
+quintillion ribosomes. That's 30 followed by 18 zeros. Altogether, these 30
+quintillion ribosomes are working on over a
+quintillion mRNA molecules. Wow, that is a lot going on. But how do ribosomes
+actually use the information in mRNA
+to create proteins? How do they know where to start, what amino acids to
+string together, and then when to stop? To understand this, let's
+go back and think about how information is encoded in
+written human languages. In English, the signal
+for the start of a sentence is a word starting
+with a capital letter. Individual words consist of varying groups of letters
+separated by spaces, and the end of a sentence
+is denoted by a period. However, in the language
+of mRNA, the genetic code, there are no capital
+and lowercase letters, there are no spaces, and there are no
+punctuation marks. Instead, the genetic
+code consists of the 64 three-letter
+words that can be made from all possible
+combinations of A, C, G, and U. These three-letter words
+are called codons, and 61 of them are used to code for different
+amino acids. Looking at this table, let's see how this works, Let's suppose that a
+particular protein requires the amino acid tryptophan
+or tryp for short. The sole mRNA codon
+for tryptophan is UGG, but if a valine or val
+for short is required, there are four
+different codons that all encode valine: GUU, GUC, GUA, and GUG. Just like synonyms in English, some mRNA codons are
+synonymous and have the same meaning when translated into the
+language of amino acids. The existence of these
+synonymous codons enables multiple different
+mRNA sequences to encode the same protein. The codon AUG specifies
+the amino acid methionine, abbreviated as met, and
+also serves as a signal for where along the mRNA chain to
+initiate protein synthesis. Three other codons: UAA, UGA, and UAG signify where
+the ribosomes should stop. That is, they act like a
+period punctuation mark, indicating where the
+protein should end. Thus, AUG serves as
+an initiation codon, and UAA, UGA, and UAG serve
+as termination codons. Now that we understand the
+structure of the genetic code, we can learn how the
+translation process works. First, with the help of some accessory machinery
+not shown here, half of the ribosome called the small subunit binds to
+the beginning of the mRNA and scans along the strand until it encounters
+the first instance of the initiation codon AUG. Once it's found in
+initiation codon, the small subunit pauses and recruits the other half of the ribosome, the large subunit. Once the large subunit is in place, protein
+synthesis commences. The ribosome ratchets
+along the mRNA, one codon at a time, snapping the correct
+amino acids in place to manufacture
+the encoded protein. In human cells, a ribosome can string together about 60
+amino acids per minute. This means that the
+average human protein takes just a few
+minutes to manufacture. When it reaches a
+termination codon, the ribosome releases the
+full length polypeptide, which completes its folding to become a functional protein. After its work is done, the two ribosomal
+subunits dissociate and are ready to start the
+process all over again. Finally, if you remember, I told you before that each cell in the human
+body contains millions of ribosomes manufacturing
+proteins from hundreds of thousands
+of mRNA molecules. That means that
+there are about 10 times as many ribosomes per cell as there
+are mRNA molecules. Even though the movie
+we just watched showed only one ribosome
+translating an mRNA, in actuality, there
+are usually multiple ribosomes moving along
+each mRNA at any one time. This famous electron
+micrograph captured an mRNA with over 30
+ribosomes in transit. If you look closely at this
+amazingly detailed image, you can see the mRNA as the thread that connects
+all the ribosomes. The ribosomes
+necessarily stretch out the mRNA as they move along. You can also distinguish the small and large subunits
+of individual ribosomes. Further, you can tell that the ribosomes are
+moving left to right, because the protein strands
+emerging from the ribosomes on the right are longer than the protein
+strands on the left. Finally, on the far right, you can even see the
+proteins starting to fold into their final 3D shapes. It is estimated that
+each mRNA molecule is translated hundreds
+to thousands of times, meaning that each individual
+mRNA molecule is used as the template for
+hundreds to thousands of protein molecules. Exactly how many protein
+molecules are made per mRNA depends on how rapidly
+the ribosomes are loaded, how fast they move
+along the mRNA, and how long the mRNA sticks around before it gets degraded. In the next lesson, we'll
+learn where mRNAs come from.

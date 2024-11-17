@@ -1,0 +1,30 @@
+Welcome back. Now that we understand
+how proteins are made by using the information
+encoded in mRNA, the next question becomes, where do the mRNAs come from? Please take a moment to review the learning objectives
+for this lesson. While translation is
+the biological process of making proteins from mRNA, transcription is the process
+of making RNA from DNA. In our cells, the
+permanent repository of genetic information
+is our genomic DNA. Like mRNA, DNA is made up of
+long chains of nucleotides. In the case of genomic DNA, these chains can be hundreds of millions
+of nucleotides long. Each chain is tightly packed into a structure we
+call a chromosome. Chromosomes reside in the
+cell nucleus and contain all the information needed to create and maintain
+a functioning human. But each cell type only needs to access just a tiny fraction of that vast information library to make its specific
+set of proteins. When a cell needs to make
+a particular protein, it copies that bit
+of genemic DNA into RNA via a process
+called transcription. The protein that makes
+these RNA copies or transcripts is called
+RNA polymerase. The initial RNA transcript goes through a series
+of maturation steps, which we won't discuss
+here to generate an mRNA. This mature mRNA is then transported out
+of the nucleus and into the cytoplasm where the process of protein
+translation occurs. This is a one way trip. Once the mRNA is
+in the cytoplasm, it cannot go back
+into the nucleus. This flow of information
+from DNA to mRNA to protein is known as the
+central dogma of biology. DNA, the permanent repository
+of genetic information, is transcribed into mRNA, a transient copy of just the information needed to make a single specific protein, and the information
+in the mRNA is translated by ribosomes
+into proteins.

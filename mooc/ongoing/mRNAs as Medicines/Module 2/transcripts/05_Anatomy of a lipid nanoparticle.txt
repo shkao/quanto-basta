@@ -1,0 +1,88 @@
+Welcome back. Now let's learn about mRNA
+delivery vehicles. Although many different types of mRNA delivery vehicles
+are being tested, the most commonly
+used to date are lipid nanoparticles or LNPs. Let's dig into the anatomy of an LNP and the function
+of each component. Please take a moment to review the learning objectives
+for this lesson. Let's watch a video to learn more about lipid nanoparticles. Here is a lipid
+nanoparticle or LNP. Inside, we have our
+cargo, the mRNA. The rest of the LNP is made
+of lipids, a form of fat. Lipids form the membranes surrounding all the
+cells in your body. They are greasy or
+hydrophobic molecules, meaning that they don't
+mix well with water. Instead, they naturally form lipid bilayers like cell
+membranes or spheres. LNPs are essentially just
+really tiny fat balls. How do we make sure the mRNA
+ends up inside the fat ball? In Module 1, we learned that mRNA
+is highly negatively charged from the phosphates in its sugar phosphate backbone. Because opposite
+charges attract, one way to get a
+lipid to stick to mRNA is to make it always
+positively charged. However, lipids that are always positively charged are not
+well tolerated by the body. To overcome this challenge, researchers used a
+clever engineering trick to develop ionizable lipids. These lipids are positively charged under some
+conditions, but not others. These lipids will coat mRNA
+under acidic conditions, but then switch back
+to being uncharged under our physiological
+conditions near neutral pH. Cool, huh? The
+attraction between mRNA and the ionizable
+lipids works to make sure they wrap
+around their cargo, but it isn't strong
+enough to be stable in a vial or to survive
+long in the body. Another layer of packaging
+is needed for strength. This is composed
+of a double layer of a different type of lipid, a phospholipid, with
+cholesterol interspersed. Both the phospholipid
+bilayer and cholesterol are important components of
+your own cell membranes. In this cryo-electron
+microscope image of mRNA LNPs, you can clearly see
+the dark interior containing the mRNA
+and ionizable lipid, as well as the lipid bilayer membranes surrounding this core. Each LNP contains between
+four and six mRNA molecules. For cells to efficiently
+absorb them, LNPs need to be within
+a certain size range. The typical diameter of an mRNA LNP is around
+80-100 nanometers. That's 1/1,000th the
+width of a human hair. They're so tiny
+that each dose of an mRNA vaccine contains
+trillions of individual LNPs. But LNPs are soft materials. If they were allowed to touch one another while in storage, they would fuse together, making bigger and bigger
+fat balls as time goes by. So we have one final layer
+of packaging to prevent the LNPs from fusing with one another while
+they're in the vial. This layer is something
+called surfactant. The most common surfactant
+currently in use is polyethylene glycol
+or PEG for short. PEG is found in many other
+FDA approved medicines, as well as
+over-the-counter products like cosmetics and toothpaste. When the PEG-coated LNPs
+bump into one another, the PEG keeps the lipid bilayers from touching, thereby
+preventing fusion. Once the mRNAs have
+been appropriately packaged to keep them
+stable during storage, they need to get
+to the right place in the body upon injection. You've probably heard
+of HDL and LDL. These are both examples of
+lipid transport complexes. They ferry fats from one place to another
+in our bloodstream. To the human body, LNPs look very much like
+lipid transport complexes. Different lipid
+transport complexes have affinity for specific
+tissues and cell types. Similarly, LNPs
+can be engineered to have affinity for particular
+tissues and cell types. Once the LNP has reached
+the target cell, how does the mRNA get inside? Cells take up LNPs by a
+process called endocytosis. This is how cells
+ingest material such as lipid transport complexes from the environment around them. The cell membrane
+engulfs the material, then buds inwardly to create a special membrane-bound
+compartment called an endosome. The final step in mRNA delivery
+is for the LNP to fuse with the endosomal membrane and release the mRNA
+into the cytoplasm, where it can interact
+with ribosomes and be translated into protein. Once the mRNA is released, what happens to the lipids? The phospholipid
+and cholesterol are normal parts of your
+own cell membranes, so are metabolized like any
+other lipids in your body. But don't worry, the amount of cholesterol administered in an mRNA medicine is minuscule compared to what's already
+in the human body. Taking an mRNA vaccine
+or a therapeutic has no effect on overall
+cholesterol levels. Once in the body, the ionizable lipids and polyethylene glycol
+have been engineered to break down into smaller
+fragments that are rapidly eliminated by
+normal metabolic processes. All of these fragments are
+gone within a few days. Now that we have an
+appreciation for how mRNA medicines overcome
+barriers to delivery, we're next going to learn about another set of barriers
+that had to be overcome: the innate
+immune sentinels.

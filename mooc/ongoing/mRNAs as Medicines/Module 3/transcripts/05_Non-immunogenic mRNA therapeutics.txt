@@ -1,0 +1,157 @@
+Welcome back to the
+final lesson of our course where we will learn
+about a third category of mRNA medicines currently
+in development : non-immunogenic
+mRNA medicines. In contrast to
+prophylactic vaccines and immunogenic mRNA therapies, where the goal is to elicit an adaptive immune
+response to either protect against an infectious
+agent or eliminate cancer, the goal of non-immunogenic mRNA therapeutics is to supply the instructions
+for a protein that can produce a specific
+therapeutic effect. Let's start this lesson
+by talking about protein replacement
+therapies for patients with inborn
+genetic errors. Please take a moment to review the learning objectives
+for this lesson. In the very first module, I showed you this metabolic
+chart which details all of the biochemical reactions
+happening inside of you right now to keep
+you alive and well. Many of these reactions
+are required for you to extract energy from food, while others enable
+your cells to create new building materials
+like fats and proteins. If you remember, each one of these reactions is
+mediated or catalyzed by a different protein
+whose names appear here in blue beside
+each chemical reaction. These proteins that catalyze chemical reactions
+are called enzymes. It is estimated that around
+1 in 1,000 newborns are born without the ability
+to make one of the metabolic enzymes
+shown on this chart. Such individuals suffer
+lifelong complications due to a small fault in
+their genetic algorithm. There are hundreds of
+different kinds of these so-called inborn
+metabolic diseases, dependent on which enzyme or biochemical pathway is affected. Because the vast majority of metabolic enzymes are
+intracellular, that is, they function inside cells, these disorders cannot
+be treated by supplying a protein therapeutic
+made outside the body. For most of these disorders, no therapy other than simple symptom management has
+previously been possible. But because mRNAs can supply a patient with
+the instructions to make inside their own cells the exact enzyme
+they're missing, mRNA medicines known as
+protein replacement therapies are a promising new approach for the treatment of many
+of these conditions. Let's recall the inborn
+metabolic disease, glycogen storage disease type
+I or Von Gierke disease, that we introduced in Module 1. Von Gierke disease is
+due to deficiency of a protein called
+glucose 6-phosphatase. This protein's job is to
+help release stored sugars so that you can maintain appropriate blood sugar
+levels when you're fasting. If you remember, children and adults who lack this
+protein can't fast. They must constantly consume small amounts of carbohydrates, including getting
+up every few hours during the night to
+eat raw cornstarch. Even if they're able to keep up this endless
+feeding schedule, these patients are plagued with many other lifelong
+medical complications. The organ that makes the most glucose 6-phosphatase
+is the liver. This is true for many
+metabolic enzymes. The liver is the largest internal organ in
+the human body. Because the liver is so large, large doses of therapeutic mRNAs are required to generate
+a therapeutic effect. Unlike vaccines where a
+very small amount of mRNA, often as little as
+tens of micrograms, can elicit the desired response, enzyme replacement requires many milligrams of
+therapeutic mRNA. That is over 1,000 times more, but this is still
+tiny compared to the grams of mRNA already
+present in the body. Further, whereas mRNA
+vaccines can be delivered intramuscularly or
+intradermally to stimulate an adaptive
+immune response, mRNA therapeutics for
+enzyme replacement must be delivered systemically, that is, intravenously to ensure that it will
+reach the liver. Also, because mRNA
+is impermanent, lasting several days
+to a week at best, enzyme replacement using
+an mRNA therapeutic requires chronic repeat dosing. So creating mRNA therapies for chronic conditions such as
+Von Gierke disease require development of LNPs that are
+both efficiently taken up by the appropriate cell type in the liver and are suitable
+for chronic dosing. In 2018, Moderna scientists published a research
+article showing how lipid nanoparticles could
+be engineered to allow for repeat dosing via
+IV administration. This and other innovations enabled Moderna to take
+the lead in testing mRNA medicines for
+long-term treatment of genetic disorders caused by a lack of a specific
+metabolic enzyme. As of the recording of
+this course, mid 2024, the first enzyme
+replacement therapies using mRNA are showing promise in
+early stage clinical trials. While not providing a cure, which is the realm
+of gene therapy and permanent genome editing, a major advantage of an
+mRNA medicine is that its dose can be adjusted according to each
+patient's needs. Also, if there are any
+undesirable side effects, the patient can either decrease their dose or simply stop
+taking the medicine. In addition to
+intracellular enzymes, another type of
+protein missing in some genetic disorders are proteins embedded
+in cell membranes. An example here is
+cystic fibrosis or CF, the most common fatal
+genetic condition affecting people of
+European descent. Patients with CF produce thick sticky mucus that can affect multiple organ systems, with the most problematic
+being the lungs. The problem in CF is an inability to maintain an appropriate
+balance of salt and water across cell
+membranes due to a fault in a protein
+called CFTR. Fortunately, many CF
+patients make a form of this protein whose
+function can be restored with a small
+molecule medicine. But about 10% of affected individuals make
+no CFTR protein at all. For this patient subgroup, a potential treatment is CFTR protein replacement via an inhalable mRNA therapeutic. Clinical trials are
+currently underway for these patients with
+an mRNA medicine being delivered
+through an inhaler. LNP delivery vehicles
+for this medicine were specifically developed to remain intact during aerosolization, that is the conversion of a
+liquid into a fine spray, and to be
+preferentially taken up by the cells lining the
+airways in the lung, whose job it is to make
+mucus more watery. Another potential use for mRNA therapeutics is in
+regenerative medicine, such as stimulation of
+new blood vessel growth, repair of damaged muscles, or scarless wound healing. Most regenerative
+pathways are initiated by one or more early signaling
+events mediated by proteins. These events kick off a cascade
+of subsequent events that eventually direct
+resident stem cells to divide and to differentiate
+into the desired tissue type. These so-called immediate
+early signaling events need to be highly
+localized and short-lived, characteristics that make it a perfect use case for local, single-dose delivery of mRNA encoding the relevant
+signaling protein. Repeated dosing should not be required for these
+applications because the signaling protein is needed only to initiate the cascade. Examples currently
+being explored, either pre-clinically
+or clinically, include injection
+of an mRNA encoding VEGF into the heart muscle during open heart
+surgery to stimulate the growth of new
+cardiac blood vessels or treatment of stress
+urinary incontinence by injection of an mRNA encoding a specific growth
+factor protein into damaged muscles around
+the urinary sphincter. While all regenerative
+mRNA medicines are still in early
+stage development, the pre-clinical
+and clinical data presented so far seem
+quite promising. Finally, another promising
+potential application for mRNA medicines is to stimulate the body to produce a
+specific secreted protein. In Module 2, we learned that proteins that
+work in the bloodstream can be used as medicines by
+injecting a pre-made protein. The examples we mentioned
+included insulin, clotting factors, and
+monoclonal antibodies. But mRNA medicines can
+enable the human body to be its own factory for
+making such proteins. In 2021, Moderna published
+a study showing that mRNA LNPs can be used to direct the human body to make functional
+monoclonal antibodies. In that case, it was antibodies capable of neutralizing
+chikungunya virus. Because the monoclonal
+antibody is made within hours of
+delivering the mRNA, this type of mRNA medicine
+can potentially be used to treat an already
+established viral infection. However, because antibodies have half-lives of only 10-21 days, the protection would be
+relatively short-lived. Thus, monoclonal antibodies cannot substitute for vaccines, which provide
+long-lived protection against future exposure
+to the relevant pathogen. Also in development are
+mRNA medicines encoding other secreted proteins such
+as cytokines, hormones, and immune modulatory proteins
+to treat disorders ranging from cancer to
+cardiovascular disease to autoimmune conditions. As of the recording
+of this course, no mRNA therapeutics
+have yet to complete the full clinical trial process necessary for
+regulatory approval. However, given their tremendous
+potential to address medical conditions where no good treatment currently exists, many companies and academic
+medical centers are now investing heavily in their
+research and development.

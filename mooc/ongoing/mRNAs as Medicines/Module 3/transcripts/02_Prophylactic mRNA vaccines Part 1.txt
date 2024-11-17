@@ -1,0 +1,78 @@
+Welcome to prophylactic
+mRNA vaccines. Now that we've learned
+about the attributes of mRNAs that make them suitable as medicines and all
+of the challenges that had to be overcome to
+realize this potential, we're finally ready to
+dig into the types of disorders that mRNA medicines can either prevent or treat. Please take a moment to review the learning objectives
+for this lesson. First, let's talk
+about vaccines. Specifically, vaccines
+meant to prevent disease. This type of vaccine is known
+as a prophylactic vaccine. We'll start here because the very first mRNA
+medicines to be approved and widely administered were the mRNA vaccines
+against SARS-CoV-2. Until very recently,
+the traditional method of vaccination was to
+expose the recipient to a small amount of a
+pathogen that's been inactivated or an
+active but weakened. That is attenuated pathogen. Pathogens may be
+viruses or bacteria. The polio and
+typhus vaccines are good examples of inactivated
+pathogen vaccines. While the MMR vaccine,
+measles, mumps, and Rubella is an example of an attenuated
+pathogen vaccine. The safety of an inactivated
+pathogen vaccine depends on the pathogen being thoroughly inactivated or killed
+prior to administration. If the pathogen is not
+completely killed, the vaccine can
+actually cause disease. In an infamous case in 1955, known as the Cutter Incident, Cutter laboratories
+released a batch of polio virus that they had failed to
+completely inactivate. When it was used
+for vaccination, it caused more than
+40,000 cases of polio, lifelong paralysis for 200
+people, and 10 deaths. Similarly, patients with
+weakened immune systems or who take an
+immunosuppressant because they've had an organ
+transplant are often advised against taking
+attenuated pathogen vaccines. This is because their weaker immune systems may not be able to control any type of infection even by a
+weakened pathogen. The way all vaccines work is to expose our
+immune systems to a new infectious agent in a relatively safe way so that we can develop an
+adaptive immune response. The first step in building
+an immune response involves specialized white
+blood cells called antigen-presenting
+cells or APCs. Their job is to constantly be on the lookout for
+anything unusual, ingest potential pathogens, and display proteins
+or fragments of proteins from it on
+their own cell surface. The proteins or bits of protein they display
+are called antigens. Gen for generate, and
+anti for against. Therefore, an antigen
+is something that generates an immune response
+against a pathogen. Antigen-presenting cells
+travel back and forth between the tissues they patrol and
+nearby draining lymph nodes. When they arrive
+in a lymph node, APCs present any
+antigens they've picked up on patrol to
+immature B and T cells. If one of these B or T cells is able to recognize a
+presented antigen, it will develop into
+a mature B or T cell. Mature B cells secrete
+proteins called antibodies that can bind to
+and neutralize the pathogen. Cytotoxic T cells,
+on the other hand, seek out the source of the
+infection and eliminate any infected cells
+before they can be exploited to produce
+more of the pathogen. mRNA vaccines work in a
+similar but different way. With traditional vaccines, APCs ingest the entire pathogen. With mRNA vaccines, the
+pathogen is replaced by LMPs. The APCs ingest
+the LMPs carrying mRNA instructions for how to manufacture one or more
+pathogen proteins. Then use their own ribosomes to make those proteins
+for surface display. Previously, we learned that mRNA is inherently transient, so once it's inside the
+antigen-presenting cells, it lasts just a short time. In animal studies, mRNAs formulated with the
+same LMP used for Moderna's SARS-CoV-2
+vaccine were undetectable after
+just three days. Similarly, the
+antigenic proteins are only present for a
+limited time as well. Although a single exposure
+to a strong antigen can be sufficient to generate an initial adaptive
+immune response, a second and even
+third exposure often results in stronger and
+more durable responses. Like most traditional vaccines, optimal protection from
+an mRNA vaccine requires both a first or prime dose and one or more subsequent
+booster doses given weeks to months later. In the next lesson, we'll learn more about
+some special features of mRNA vaccines.

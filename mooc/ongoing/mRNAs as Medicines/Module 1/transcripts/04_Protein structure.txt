@@ -1,0 +1,65 @@
+Welcome back. In
+the last lesson, we learned that the
+human body contains hundreds of thousands
+of different proteins. Much like a large city contains thousands and thousands
+of different buildings. In this lesson, we will
+dive into how proteins are built and how their structures
+determine their function. Please take a moment to review the learning objectives
+for this lesson. If we think about
+buildings again, even though their final forms
+can look quite different, what they all have in
+common is that they're constructed from a limited
+set of component parts, like wood, stone,
+metal, and glass. How these parts are
+arranged and attached to one another is what dictates
+their final structure. The same is true of proteins. What those parts are and
+how they drive formation of three dimensional structures is the subject of the next video. Starting with a fully
+assembled protein, in this case, human insulin, the protein hormone that helps us regulate blood sugar levels, let's deconstruct it
+and see how it's built. If we unravel insulin's three
+dimensional architecture, we can see that it's
+actually two long chains composed of tiny building
+blocks called amino acids, 51 to be exact. All amino acids share a common chemical architecture
+or underlying scaffold. Attached to this
+common scaffold is a side chain that makes
+each amino acid unique. In all, there are 20
+different amino acids, each having a
+different side chain. Their common architecture allows amino acids to connect to one another like pop beads and
+form long chains or polymers. A polymer is simply
+a long strand of repeating building
+blocks called monomers. In a pop bead chain, each pop bead is a monomer. When amino acid
+monomers pop together, they form strong peptide bonds. A string of amino acids is
+often called a polypeptide. Which amino acids are present and the order
+in which they're arranged dictates
+how the chain will fold up into a three
+dimensional shape. It's this unique three
+dimensional architecture that gives each protein
+its specific function. In humans, the median protein is a string of 375
+amino acid monomers. At 51 amino acids, insulin is on the small side. The largest human
+protein is titin, a key component of muscles. As its name implies,
+titin is gargantuan, consisting of a string of up to 35,000 amino acid monomers. Once they assume
+their 3D shapes, some proteins are ready to
+function all on their own. One example is human
+serum albumin, the most abundant protein
+in human blood plasma, constituting almost half
+of total serum protein. Made by the liver, serum
+albumin is a chain of 585 amino acids that fold
+up into a globular shape. Serum albumin performs
+many functions, including maintenance
+of osmotic pressure, acting to buffer serum pH, and transporting
+hormones, fatty acids, and other biological
+compounds around the body. Now, let's look inside one
+of these red blood cells. Here, you can see
+that the scaffold that gives the red blood cell its shape is made up of many different
+proteins connected like lego building blocks. Each of these
+proteins is one part of a multiprotein complex. Amazingly, most of these larger multiprotein
+complexes are able to self-assemble once all of the individual protein
+parts are available. Perhaps the best studied multiprotein complex
+is hemoglobin, the highly abundant protein in red blood cells that carries oxygen and gives them
+their red color. Hemoglobin contains four
+separate polypeptide chains, two chains of Alpha globin, and two chains of Beta globin. When these four
+chains come together, they form binding sites for another molecule called heme, which provides the site
+for oxygen binding. Now that we understand
+the fundamentals of protein structure
+and function, we'll next learn about how each different cell type
+knows which proteins to make. Where do the
+instructions come from?

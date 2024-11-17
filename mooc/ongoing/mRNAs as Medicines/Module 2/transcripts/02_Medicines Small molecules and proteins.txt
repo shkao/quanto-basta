@@ -1,0 +1,118 @@
+Welcome to medicines, small
+molecules and proteins. Please take a moment to review the learning objectives
+for this lesson. Let's start with defining
+the term medicine. The legal definition
+of a medicine, medication or simply drug is a substance intended for
+use in the diagnosis, cure, mitigation, treatment
+or prevention of disease. Many of us take medicines every
+day in the form of pills. The active ingredients
+of pills are generally known as
+small molecules. Let's take a closer look at
+small molecule medicines. As their name implies, small molecules are much
+smaller than a protein or mRNA, more on the scale of a single amino acid or nucleotide
+building block. Therefore, many can easily
+cross cell membranes to work inside our cells without need of a special
+delivery system. Small molecule medicines
+have multiple advantages. First, most are able
+to be formulated into solid forms that are stable for long times at
+room temperature. Secondly, most can be
+taken by mouth and once dissolved by the
+digestive system can go everywhere in the body, including sometimes the brain. These small molecule medicines include antibiotics
+such as penicillin, and painkillers,
+such as ibuprofen and acetylsalicylic
+acid or aspirin. The list goes on and on from medicines that treat
+hay fever, nausea, high blood pressure, and high
+cholesterol to those that treat psychiatric disorders like depression
+and schizophrenia. Nonetheless, there are some
+noteworthy limitations. In particular, current
+day development of each new small molecule
+medicine generally involves an initial screen through tens of
+thousands of compounds, followed by years of
+medicinal chemistry to mold an initial hit into
+a potential medicine. Following that,
+there are years of preclinical and clinical studies to prove that it is both
+safe and effective. Unfortunately, most
+small molecules drop out somewhere along the development journey due to either unanticipated toxicities
+or lack of efficacy. Because of the need to screen so many compounds and
+the high failure rate, small molecule drug
+development is both very time consuming
+and very expensive. The way almost all small molecule medicines
+work is that they bind to a particular protein and change how that
+protein functions. Some small molecule
+medicines slow down or completely inhibit the
+target protein's function. Others do the opposite and increase the target protein's
+ability to function. Therefore, modulating the
+activity of proteins is a general mechanism by which we can treat ailments
+and disease. But proteins themselves
+can also be medicines. They now make up a key
+class of medicines known as therapeutic proteins
+or protein biologics. Almost all proteins
+currently in use as medicines do their
+work in the bloodstream. Notable examples include
+insulin used to treat diabetes, blood clotting factors
+used to treat hemophilia, erythropoietin used to treat anemia, and monoclonal
+antibodies, which have many different
+uses ranging from warding off viral infections to treating
+cancer and arthritis. As a class, monoclonal
+antibodies have proven so efficacious that
+between 2015 and 2020, the US Food and Drug
+Administration, the FDA, approved about ten new monoclonal antibody
+medicines per year. Individual proteins
+from viruses and bacteria can also be
+used as medicines, in this case, to prevent
+future infection. These are called protein
+subunit vaccines. Since they only constitute one small piece of
+the infectious agent, protein subunit vaccines are generally safe and
+cannot cause disease. Instead, they prime our immune
+systems to recognize and respond to that specific virus
+or bacteria in the future. Now, let's discuss some of the disadvantages of
+protein medicines. Despite their advantages, protein medicines also
+have notable limitations. For example, for the
+first several decades of its use as a medicine, insulin was purified
+from animals. However, animal insulin has a slightly different amino
+acid sequence compared to human insulin and
+was therefore prone to causing allergic
+reactions in patients. Even more dire consequences were suffered by hemophiliacs. Prior to the development of
+recombinant clotting factors, hemophiliacs we treated with clotting factors purified
+from donated human blood. Contaminated blood products led to thousands of
+patients contracting hepatitis in the 1960s
+or aids in the 1980s. This was only corrected when appropriate screening
+procedures were implemented in 1969 for hepatitis
+and in 1985 for HIV. While some therapeutic
+proteins are still purified from natural
+sources, these days, most are made using mammalian
+cell lines that have been genetically engineered to manufacture the
+protein of interest. A word commonly used to
+describe these cells, as well as the
+therapeutic proteins they produce is recombinant, which loosely means
+a new combination. Recombinant cells are grown in huge stainless steel
+vats called bioreactors. Each bioreactor requires significant industrial
+infrastructure to keep the cells alive and
+free from contamination, so making therapeutic proteins is a very expensive endeavor. Further, because each
+therapeutic protein is unique, each one separately requires significant work to
+figure out how best to stabilize and formulate it so that it doesn't
+degrade during storage, and ultimately functions as intended once injected
+into the body. Finally, most proteins
+can't easily enter cells, meaning that almost all
+therapeutic proteins are limited to jobs either outside
+of cells, for example, in the bloodstream, or in the special
+compartments known as endosomes and lysosomes that cells use to take up nutrients
+from their environment. But more than 90% of human
+proteins reside either completely inside cells or are embedded within
+cell membranes. If we tried to make and use these intracellular and
+membrane proteins as medicines, they wouldn't be able to get to the proper location that
+they need to function. This is where the idea of
+mRNA medicines comes in. Instead of supplying
+the human body with a pre-made protein, we could supply just
+the instructions for making that protein, that is, the mRNA. This would enable our bodies to manufacture our own
+therapeutic proteins, and because these
+therapeutic proteins would be made inside
+our own cells, any type of protein,
+intracellular, membrane brand, or secreted
+could become a medicine. Sounds so simple, but
+of course, it's not. Our ability to use mRNA as a medicine has only
+recently become possible due to decades of hard work by both academics and
+industry researchers. In the later lessons
+of this module, we'll learn about the many
+barriers that had to be overcome to enable the
+creation of mRNA medicines.

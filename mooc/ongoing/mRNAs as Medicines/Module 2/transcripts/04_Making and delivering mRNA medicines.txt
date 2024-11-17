@@ -1,0 +1,63 @@
+Welcome back. In the
+last two lessons, we learned about the
+properties of mRNA that make it possible to
+be used as a medicine. Importantly, mRNA medicines
+enable the human body to make its own medicinal
+proteins by tapping into the natural process
+of protein production. In this lesson, we'll learn
+about the challenges that had to be overcome to
+realize this potential. Please take a moment to review the learning objectives
+for this lesson. First, let's watch a video about how mRNA is made
+outside the body. The first challenge
+to overcome was making mRNA outside the body. Remember, in our bodies, mRNA is copied or transcribed from DNA in
+the nucleus of our cells. Making mRNA medicines, however, requires a DNA template
+outside of cells. This is accomplished
+by inserting a specially coded piece
+of DNA into bacteria, allowing these bacteria to reproduce and make many
+more copies of that DNA, and then carefully isolating and purifying the amplified DNA. From here, the
+process to synthesize mRNA molecules is purely
+biochemical, that is cell-free. The DNA template
+is first cut with special molecular
+scissors to linearize it. This linear DNA is then
+incubated with nucleotides and a special RNA polymerase
+called T7 RNA polymerase. The polymerase strings
+together the nucleotides in the correct order to
+produce the mRNA. This reaction can
+be carried out on many different scales from a very small amount
+for research purposes, to enough for one patient
+for a personalized medicine, to enough for tens or hundreds of patients to treat
+a rare disease, or on an incredibly
+large scale to make tens of millions of mRNA vaccine
+doses in a single batch. Once the mRNA has been purified, it goes through multiple
+quality control steps to ensure that the batch
+no longer contains any DNA or any leftover
+reaction materials and that the mRNA
+itself is intact. Next comes formulation. Because our bodies impose multiple biological
+barriers that prevent it from staying intact until it reaches
+the target tissue, mRNA cannot be dosed as
+a medicine on its own. It is not currently possible to take an mRNA medicine
+by mouth because it will be seen as food and be immediately broken
+down and recycled. Instead, most mRNA medicines are injected into
+a muscle if it's a vaccine or intravenously that is IV if it's
+a therapeutic. Other mRNA medicines are being developed
+that goes straight to the nasal passages or
+lungs through an inhaler, and still more are in development to be applied
+directly to the skin. Within our own bodies, mRNA doesn't normally
+exist outside of cells. When naked mRNA appears in the bloodstream or
+lymphatic system, our bodies assume it's either
+debris from dead cells or evidence of infection
+by an RNA-based virus. Our biological fluids are
+full of custodial proteins that clean up dead cells and defend us against
+viral infections, and they rapidly
+destroy naked RNA. Further, since mRNA is normally made within
+the cells that need it, the molecule contains no way finders for where
+in the body to go. Therefore, mRNA alone has no means for tissue
+or cell selectivity. Finally, even if it was able to survive and find
+the desired cells, it would have no way to cross the cell membrane to get inside. Remember that mRNAs are
+highly negatively charged, so cannot easily
+cross cell membranes. For all of these reasons, mRNA medicines require
+a delivery vehicle, some sort of packaging
+material that serves three purposes; first, to protect it from
+degradation, second, to direct it to the desired
+tissue and cell type, and third to help it gain
+entry into the cell cytoplasm.

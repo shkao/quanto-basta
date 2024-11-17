@@ -1,0 +1,89 @@
+Welcome back, in the previous two lessons, we focused on using mRNA medicines
+as vaccines to prevent disease. We'll now turn our attention to
+other types of mRNA medicines, medicines with the potential
+to treat existing disease. These medicines are known
+as mRNA therapeutics, please take a moment to review
+the learning objectives for this lesson. Because mRNA therapeutics are so new,
+as of the creation of this course in mid 2024, no mRNA therapeutics have
+completed all of the clinical trial phases required for final approval
+by government regulatory agencies. Nonetheless, because of their
+potential to fulfill so many critical unmet medical needs,
+there are a multitude of mRNA therapeutics at various stages of development, with
+many already undergoing clinical testing. Let's first learn about how mRNA
+medicines might be used to treat cancer. Cancer happens when a particular
+cell in the body acquires enough mutations in its genomic DNA
+that it no longer responds to the normal signals that
+keep its growth in check. The cell begins to divide and
+multiply inappropriately, and a tumor starts to grow. Additional mutations are acquired
+as the tumor cells divide, enabling some of them to
+invade nearby tissues. Eventually, if left untreated,
+parts of the original tumor may start to migrate to more distant sites in the body,
+resulting in metastatic cancer. One of the most significant advances
+leading to new treatments in cancer in recent years was
+the realization that cytotoxic t cells, the same white blood
+cells that recognize and eliminate viral infected cells,
+also worked to protect us from cancer. That is, in addition to protecting
+us from infectious disease, cytotoxic t cells are constantly
+patrolling our bodies to find and eliminate our own cells that may
+become cancerous, how do they do this? With the exception of red blood cells,
+every cell in your body displays on its outer surface around
+100,000 copies of a protein called Major Histocompatibility Complex Class 1,
+also known as MHC-1. The job of these membrane bound
+MHC-1 proteins is to showcase fragments of all the different proteins
+that are made inside that cell. In a way, MHC-1 acts like a badge, and the protein fragments it
+displays are the ID cards, proving that they belong in the body and
+that they have a legitimate job to do. Cytotoxic t cells constantly monitor
+these protein fragment ID cards, looking for
+fragments from non self proteins. A non self protein could be
+a protein from an invading pathogen, a self protein that has become mutated and
+is on its way toward cancer, or any protein not normally
+present in the body. If a cytotoxic t cell finds
+evidence of non self proteins, the cell presenting that information
+is targeted for elimination. That's why they're called cytotoxic
+t cells, cyto means cell and toxic means poisonous. Cytotoxic t cells eliminate our own cells
+when they're producing something unusual. Although the number of specific or consequential mutations required to
+develop cancer is between 1 and 10, most cancers contain more than 10,000 so
+called non germline mutations. These mutations arise due to errors
+during DNA replication and cell division. The vast majority of these non germline
+mutations aren't actually involved in cancer development and progression. But some of these inconsequential
+mutations can be used by the immune system to recognize and eliminate the cancer
+cells if they cause an entirely new protein to be made or change the amino
+acid sequence of a normal protein. These mutant proteins are unique
+to that cancer, they are called neoantigens because they are both new and
+now recognized as non self. When fragments of a neoantigen
+are displayed by MHC-1, their ID card says I don't belong. Researchers are now developing and testing
+individualized neoantigen therapies, or INTs, also known as
+personalized cancer vaccines. To take advantage of non
+germline mutations and train the immune system to recognize
+an individual's unique cancer. An individualized neoantigen therapy is
+similar to a prophylactic vaccine in that it activates the body's adaptive immune
+system to respond to a specific threat. But in this case,
+instead of a foreign pathogen, the threat comes from cancer
+cells already in the body. The first step in creating
+an individualized neoantigen therapy is to map all the mutations present in that
+individual individual specific cancer and not in their normal tissues, that is, identify all potential neoantigens
+present in the cancer. This is done by performing deep genome
+sequencing on both a tumor biopsy and a blood sample. Advanced bioinformatic analysis
+are then able to identify which cancer cell mutations will
+produce a neoantigen and predict which ones are most likely to
+show up as an ID card on the MHC-1 badge. With those peptides identified,
+it's possible to design one or more mRNA's encoding them. Often, the mRNA provides the instructions
+for a single long polypeptide that will be chopped up into smaller pieces for
+display by antigen presenting cells. After manufacturing the mRNA, formulating
+it into an appropriate lipid nanoparticle, and performing all of
+the necessary safety and quality control testing,
+the therapy is ready for use. Remarkably, the entire process,
+from obtaining the tumor and blood samples to delivering the finished
+medicine back to the clinical team, can be done in under a month and a half. To generate a cytotoxic t cell response
+in the patient, the therapy must then be administered by multiple intramuscular
+injections days to weeks apart. So, similar to the way prophylactic
+vaccines are designed to activate our adaptive immune system to recognize
+a patient potential pathogen, individualized neoantigen therapies
+are designed to stimulate a cytotoxic t cell response against cancer
+cells already in our body. Thus, the goal of both
+prophylactic vaccines and individualized neoantigen therapies is
+to generate an adaptive immune response. Together, they form a class called
+immunogenic mRNA medicines. In the next lesson, we'll learn about mRNA
+medicines, where the goal is to treat an existing disorder without
+generating an adaptive immune response. These therapeutics can be thought of
+as non immunogenic mRNA medicines.

@@ -1,0 +1,113 @@
+Welcome back. In the previous lesson, we learned about
+lipid nanoparticles, or LMPs, and how they protect mRNA medicines from
+premature degradation and deliver them into cells. But one last major hurdle
+that had to be overcome to create effective mRNA medicines was the innate immune system. Please take a moment to review the learning objectives
+for this lesson. Now, when you hear the
+words immune system, what probably comes to
+mind are antibodies, which are proteins in
+the bloodstream that recognize and neutralize
+a particular pathogen. Antibodies are made by B cells, one of the key cell types that make up our adaptive
+immune system. The adaptive immune
+system is what vaccinations tap into
+to protect us from getting sick or
+severely ill from a specific pathogen
+like SARs CoV 2. The other key cell type in the adaptive immune
+system are T cells. A type of T cell called
+cytotoxic T cells recognize and eliminate any cells in our body that have been
+infected by a pathogen, thus preventing
+those infected cells from making more
+of that pathogen. While the adaptive immune
+system enables us to develop very strong defenses against
+specific infectious agents, it takes our bodies
+weeks to months to develop a new adaptive
+immune response and multiple days to gear
+it back up to fight a pathogen that we've been exposed to in the distant past. Thus, the adaptive immune system is too slow to be suitable as a first line of defense when we encounter an entirely
+new pathogen. This first line of defense is the job of the innate
+immune system. Rather than recognizing
+the unique features of a specific pathogen, the innate immune system
+recognizes features common to all pathogens
+of a specific type. For example, many bacteria
+contain a substance called lipopolysaccharide or LPS
+on their outer surfaces. Our innate immune system is always on the lookout
+for any LPS in our body because this is one of the earliest warning signs
+of a bacterial invasion. Recognition of LPS sets off inflammatory alarm
+signals resulting in body aches and fever. Now, let's watch
+a video to learn more about our innate
+immune system sensors. A large number of
+viruses that infect humans have instruction
+sets in the form of RNA. Common examples are
+coronaviruses, flu, and polio. These viruses enter cells
+by endocytosis and then release their RNAs from the
+endosomes into the cytoplasm. But this process is
+not 100% efficient, meaning that some viral RNA gets released inside
+the endosome. Our own mRNAs originate in the nucleus and stay
+in the cytoplasm, so are not normally
+found inside endosomes. R innate immune system has
+special protein sensors that are constantly on the lookout
+for RNA inside endosomes. When these sensors detect
+RNA inside endosomes, the presumption is that
+it must be dangerous. The RNA sensors set
+off an alarm signal, and proteins called
+interferons and cytokines are released causing local
+inflammation and sometimes fever. Remember from the last
+lesson that LMPs also use endocytosis to deliver
+their mRNA cargoes into cells. Like viruses, release of LMP-encapsulated mRNAs
+into the cytoplasm is not 100% efficient
+with some fraction of the mRNA being released
+inside the endosome. Thus, LMPs containing
+mRNA can appear to our innate immune system to
+be a potential RNA virus. To make effective
+mRNA medicines, it was therefore
+crucial to learn how to slip by the innate immune
+sensors in the endosomes. The first step to
+overcoming this hurdle was understanding exactly
+what molecular features the sensors detect. Work published in the early
+2000s demonstrated that the feature recognized by some sensors is the
+RNA nucleotide U. When U binds to these sensors, the sensors get activated and start sending out
+danger signals. Soon after that discovery, further research showed that using modified versions of U, as long as they
+don't interfere with translation by the ribosome can prevent the sensors from
+recognizing RNA in endosomes. It turns out that although ACG and U are the most
+common RNA nucleotides, our cells also contain many
+modified versions of these. In fact, over 100 different
+modified nucleotides are known to exist in nature. One that is normally present
+in the human body is 1-methyl-pseudouridine
+or 1MY for short. If U is replaced with 1-methyl pseudo U as the nucleotide in the
+transcription reaction, T seven RNA polymerase
+will produce mRNA with 1-methyl
+pseudo U throughout. These 1-methyl pseudo U
+mRNAs are able to evade the innate immune sensors that search for viral
+RNAs in endosomes. But even if an mRNA molecule
+is able to avoid activating the innate immune
+sensors that detect single-stranded RNA
+inside endosomes, there is yet another
+defense system to avoid. This second defense
+system is on the lookout for long stretches of
+double-stranded RNA. Like the sensors we've
+already discussed, this second set of sensors evolved to protect
+us from viruses. In order to make new
+copies of themselves, all RNA viruses
+have to go through a phase where their RNA
+is double-stranded. This feature is not
+present in our own, mRNAs, which are largely
+single-stranded. Thus, a second set of
+innate immune sensors patrols both endosomes
+and the cytoplasm, looking for long stretches of perfectly base-paired
+or double-stranded RNA. Again, when these
+sensors are activated, they set off alarm
+signals causing the release of interferons
+and cytokines. Unfortunately, the
+traditional process of transcribing mRNA using T seven RNA polymerase
+also generates a small amount of
+double-stranded RNA by-products. To make an effective
+MRNA medicine, these double-stranded
+RNA by-products need to be kept to a minimum. Fortunately, mRNA drug
+makers have now found very efficient ways to decrease the amount of double-stranded
+RNA by-products, both by changing the
+transcription reaction conditions and by implementing strict
+purification protocols. Understanding all the ways
+the innate immune system detects potential invasion
+by RNA viruses has enabled mRNA medicine makers to
+find creative solutions to avoid setting off the
+innate immune alarm systems. Combining these solutions with efficient mRNA delivery systems such as lipid nanoparticles, has opened the door
+to the development of many new mRNA medicines. The various ways we can use mRNA medicines will be the
+topic of the next module.

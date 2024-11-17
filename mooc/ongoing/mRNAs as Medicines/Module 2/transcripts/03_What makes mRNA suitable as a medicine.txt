@@ -1,0 +1,146 @@
+Welcome back. Before we learn about how mRNA can be
+used as a medicine, let's talk about some of the properties
+generally required of medicines so that we can have control over their effects
+and ensure their safety. Please take a moment to review the learning objectives
+for this lesson. An ideal medicine has
+three basic attributes. One, its effect is
+dose-dependent. Two, its effect is time-limited. Three, it can be
+dosed repeatedly. Both classic small molecule
+and protein medicines have all three of
+these properties. A limited duration of
+effect is particularly important because if one
+experiences side effects, you can simply stop
+taking the medicine. Let's check to see whether mRNA has the right features
+to be an ideal medicine. Unlike DNA, which serves as the permanent repository of
+your genetic information, both proteins and mRNAs
+are inherently transient. With very few exceptions, most proteins are
+under constant flux. They have limited lifetimes and must be regularly replenished. Likewise, the instructions
+for making them, the mRNAs are constantly
+made and destroyed, only to be remade again. This enables your body to
+rapidly change the amounts of key proteins so that you can respond to
+changing conditions. To illustrate this, let's
+consider your circadian clock. This is the timer
+in your body that tells you when to be
+active and when to rest. The proteins responsible for the clock are aptly
+named clock proteins, and they appear
+and disappear with astounding regularity
+every 24 hours. Your body accomplishes this with a daily cycle of clock mRNA
+creation and destruction. The amount of protein
+produced at any one time is tightly tied to the amount of
+mRNA present at that time. Over and over, for
+every day of your life, your cells get their daily
+dose of clock mRNAs, driving expression
+of clock proteins. Although all proteins
+and mRNAs are transient, each different protein and
+its corresponding mRNA has been tuned evolutionarily to have an optimal lifetime. Now, let's learn about
+a way to measure how long proteins and
+mRNAs stick around. A common measure used
+to describe how long a particular substance sticks
+around is its half-life. Half-life is the amount
+of time required for half of a substance to disappear
+after it has been made. Structural proteins tend
+to last the longest. The protein crystallin
+in the lens of your eye has a half-life
+of more than 70 years. Once incorporated into the lens, crystallin cannot
+be replaced and needs to last you
+your entire lifetime. But this is highly unusual. Antibodies are among the
+longest lived proteins, but their half-lives
+are only 10-21 days. Remember that huge
+protein titin, its half-life is
+just three days. Shorter still are
+the half-lives of proteins that mediate
+metabolic reactions. Remember that metabolic
+chart from Module 1? An example from this class is the protein glucose
+6-phosphatase, the one that's missing
+in Von Gierke disease. Its half-life is somewhere
+between 8 and 48 hours. At the very short end are signaling proteins like
+the hormone relaxin, whose half-life is
+less than 10 minutes. So protein half-lives can
+span for minutes to decades. The median protein
+half-life is estimated to be about 30 hours
+or just over a day. So what about mRNAs? How long do they last? mRNAs are not nearly as
+long-lived as proteins. The typical human mRNA has a half-life of just five hours. Of course, like proteins, mRNA half-lives do cover
+a range with the shortest being just a few minutes and the longest being about five days. Importantly, no mRNA lasts
+for your entire life. They are short-lived by design
+so that your body can make the appropriate proteins in the appropriate amounts as
+your body requires them. Because, one, mRNA is transient. Two, there is a dose dependency between an mRNA and the
+protein it encodes. Three, an mRNA can be
+induced over and over again. mRNA has all three properties
+of a classic medicine. In addition to these, there are three more key
+properties of mRNA that make it extremely attractive as a new way of
+making medicines. We learned about the first of these in the previous lesson. That is, mRNA has the ability to direct the body to make
+any type of protein, not just proteins that do
+their job outside of cells. So mRNA medicines
+have the potential to meet many currently
+unmet medical needs. These range from
+rapid development of vaccines against
+new pathogens as quickly as they emerge to stimulating the immune
+system to fight cancer, to treating patients with inborn metabolic
+errors by giving them back the ability to make the protein
+they're missing. The second feature is the small manufacturing
+infrastructure requirements for making mRNA medicines. Unlike recombinant
+proteins made by tissue culture cells grown
+in huge bioreactors, the process of making
+mRNA medicines has a much smaller
+manufacturing footprint. mRNA medicines are made using solely chemical, biochemical, and biophysical processes that do not require
+mammalian cell culture. The equipment for
+these processes is relatively small
+and can be mobile, making the manufacturing
+facility highly adaptable. Because the infrastructure
+and equipment required to make mRNA medicines
+are relatively modest, manufacturing sites
+can be easily set up in multiple
+locations around the world. Because the sequence of
+nucleotides that make up an mRNA is
+simply information, when mRNA drug designers
+have successfully created a new mRNA
+medicine, say, a vaccine against a
+rapidly emerging pathogen, that mRNA sequence can be
+instantly delivered digitally to every manufacturing site for local synthesis
+and distribution. In the future, as
+technology improves, it might even be
+possible to miniaturize the entire manufacturing
+process to take place in a single
+bench top machine. The third feature is that, unlike small molecules
+and proteins, mRNA is an
+information-containing molecule. It is not itself the
+active medicine. mRNA is simply a
+recipe that tells the body how to make its
+own medicinal proteins. Once a drug maker knows
+how to make and formulate clinical-grade mRNA and how to direct it to the desired
+cell type, for example, immune cells for vaccines or liver cells for a metabolic
+disorder therapeutic, they can simply swap out the
+previous mRNA sequence with a new one to create a new mRNA
+medicine of the same type, for example, a new vaccine
+or a new therapeutic. mRNA medicines are therefore
+a platform technology. According to techopedia.com, a platform is a group
+of technologies that are used as a base upon
+which other applications, processes, or technologies
+are developed. These days, most of us have a platform technology in our
+pockets: our smartphones. The phone's hardware
+and operating system constitute the platform. This platform then enables
+rapid development of countless apps that
+we all use every day. In the case of mRNA medicines, the hardware is the
+manufacturing equipment used to make the mRNA medicines. The operating system consists
+of the processes and know-how for making mRNA
+medicines at various scales. Importantly, all
+mRNA medicines of a particular type use the same raw materials and
+manufacturing processes. Thus, the need for
+re-engineering to create a new
+medicine is minimal, and this can greatly accelerate the timelines to
+develop the apps. That is, the individual
+mRNA medicines. Yet another advantage of mRNA medicines is that they
+can be easily multiplexed, meaning that more than one mRNA can be delivered in
+a single medicine. This can provide the
+body with instructions to make multiple different
+proteins at the same time. Remember that some proteins act as multi-protein complexes. If a particular application requires synthesis of
+the entire complex, the mRNAs, to encode each
+component of the complex, can be delivered simultaneously. Alternatively, mRNA
+vaccines encoding proteins from different
+pathogens can be combined into a single shot
+so that you can be vaccinated against several
+different infectious agents at the same time. Now that we've learned about
+the potential advantages of mRNA medicines, in the next lesson,
+we'll learn about the many challenges
+that had to be overcome to fulfill
+this promise.

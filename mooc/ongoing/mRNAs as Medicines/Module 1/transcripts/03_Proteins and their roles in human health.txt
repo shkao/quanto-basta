@@ -1,0 +1,116 @@
+>> Welcome to Proteins and
+their roles in human health. This course is about mRNA medicines, how
+they work, and what they can be used for. But before we get there,
+we need to talk about proteins. This is because the way mRNA medicines
+actually function is by enabling the human body to make its own
+medicines in the form of proteins. Please take a moment to review
+the learning objectives for this lesson. Now, you may think of protein as
+simply an important part of your diet, something you need to eat to build muscle. But it's not just muscle
+that contains protein. Protein makes up about one-sixth of your
+entire body weight, and it's not just you. Protein is an essential component
+of every life form on earth. From the smallest viruses, to simple
+single-celled organisms like bacteria and yeast, all the way up to the most
+complex organisms like plants, animals, and ultimately us. Now let's think about proteins from
+the point of view of the human body. In many ways,
+your body functions like a large city. From this zoomed out view,
+a city looks very uniform. But if we zoom in, we can see that it's really a complex
+array of myriad interconnected buildings. These buildings come in all shapes and
+sizes. What would we see if we were
+to zoom in on ourselves? To see the molecular makeup of the human
+body, we also need to zoom in. As we start to zoom, we can see that our
+bodies are composed of multiple individual organs or tissues,
+like the liver and the brain. As we zoom in some more,
+we can see that these tissues, in turn, are each composed of millions
+to billions of individual cells. To give you a sense of scale, the average human cell is only one 10th
+the width of a strand of human hair. If we zoom in further still, we start
+to see organelles like the nucleus, which contains our chromosomes,
+and mitochondria, the cellular powerhouses
+from which we derive energy. But if we zoom even further,
+we can see that these organelles are themselves composed of
+individual protein molecules. A typical human protein is only
+around ten nanometers wide. That's really tiny. They're so tiny that billions
+of individual protein molecules can fit inside each human cell. Let's take a closer look at the abundance
+and importance of proteins in our body. Now let's consider cities and
+buildings again. Just as the word building fails to capture
+the incredible variety of structures that make up any large city, the generic term
+protein gives no clue as to the amazing variety of protein architectures
+that exist at the molecular level. Like buildings,
+proteins are far from monolithic. Rather, proteins come in all shapes and
+sizes. Some serve structural roles, like the
+collagen that makes your skin tough but pliable, or the actin and myosin in
+our muscles that enables us to move. Our blood contains lots of hemoglobin
+that ferries oxygen, antibodies to help us fight off disease, and
+clotting factors to close up our wounds. At the molecular level,
+the numbers are truly mind blowing. Each of the more than 30 trillion cells
+in your body, that's 3 with 13 zeros, contains somewhere between 1 and
+10 billion protein molecules. This means that there are as many
+individual protein molecules in your body as there are stars
+in the known universe. Collectively, this huge constellation
+of proteins that make you you is called your proteome. Amazingly, creating and maintaining a
+healthy human requires the combined action of over 100,000 different kinds of
+proteins, and your body makes them all. Thus, our bodies are remarkable
+protein factories. Each different cell type in your body
+makes different sets of proteins. For example, the rods and cones in your
+eyes make a family of proteins called rhodopsins that collect light and
+turn it into electrical impulses. While the neurons in your brain
+make a different set of proteins to rapidly interpret those impulses and
+enable you to see. But those proteins are just
+the tip of the iceberg. Here's the metabolic
+chart of the human body. It shows the hundreds of different
+chemical reactions happening inside of you right now that are keeping you alive and
+well. And each of these chemical
+reactions is mediated or catalyzed by a different protein,
+whose names are indicated here in blue. So proteins not only play important
+structural roles in your body, they're also the machinery that makes
+your body tick and keeps you healthy. Because building and
+maintaining a human body involves so many different molecular parts. Like any complex building project, the process of protein synthesis
+needs to be highly coordinated so that the right protein is made in
+the right place and at the right time. With such a complicated system, however,
+it shouldn't be surprising that there's an occasional mistake,
+a miscalculation in the algorithm. Remember that metabolic chart? It's estimated that up to 1 in 1000
+newborns is born without the ability to make a functional version
+of one of these proteins, leading to lifelong complications due to
+a permanent fault in their algorithm. Lets consider just one such inborn
+metabolic disease, von Gierke disease. Babies born with von Gierke disease
+don't make a functional version of a protein called glucose 6 phosphatase. This protein's job is to help release
+sugars stored in the liver so that you can maintain appropriate blood
+sugar levels when you're fasting. So children and adults who lack
+this protein function can't fast. They must constantly consume
+small amounts of carbohydrates, including getting up every few hours
+during the night to eat raw cornstarch. You can imagine the toll
+this takes on parents. If they ever miss a feeding, their child
+can suddenly lapse into hypoglycemia, leading to seizures and potentially death. But even if they're able to keep
+up this endless feeding schedule, these patients are plagued with many other
+complications, including delayed puberty, frequent infections,
+kidney disease, and liver cancer. And von Gierke disease is just one of a
+myriad of such inborn metabolic disorders. For many, we now know exactly
+what protein function is missing. What if we could give these patients
+back the ability to make that one single protein? Then we could treat their disease
+instead of just managing their symptoms. And that's where mRNA comes in, but
+we'll talk more about that later. As we discussed before,
+proteins are essential for all biological entities,
+including viruses. Now, let's take a moment to learn
+a little more about viral proteins. SARS-CoV-2, the virus
+that causes COVID-19, has multiple different
+proteins on its surface. The most talked about is the spike
+protein, which sticks out and forms the crown, or corona,
+that gives this viral family its name. The rest of the viral surface is made up
+of additional viral proteins embedded in a sea of lipids. Lipids are a type of fat that
+form viral and cell membranes. Now, if we take a cross
+section of the virus, we can see that inside this
+shell is an inner core. This inner core contains
+even more proteins and the instructions to make
+new viral particles. Now, viruses are not technically alive. To be alive, an organism needs to be
+able to reproduce or replicate itself. But this requires a tremendous amount
+of molecular machinery that viruses don't have. Because viruses only contain
+the instructions for how to make the proteins necessary
+to create new viral particles, they need to gain access to protein
+synthesis machinery in a host cell, let's say a cell lining a human's airways. The virus then injects its instruction
+set into the host cell to trick the host's protein synthesis machinery
+into making the viral proteins. So when you're infected by
+a virus like flu or SARS-CoV-2, the virus uses your cellular protein
+factory to manufacture its own proteins. Thus, humans are the factories
+that make new viral particles that go on to infect other humans. The good news is that your body has
+the ability to tell the difference between human and viral proteins. It can differentiate self from non-self. This is the job of your immune system,
+and we'll get back to this later. But first, we need to talk a little more
+about what proteins actually look like and how your body actually manufactures them. This is the topic of the next lesson.

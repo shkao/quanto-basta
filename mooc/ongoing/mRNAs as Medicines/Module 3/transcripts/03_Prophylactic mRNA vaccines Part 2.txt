@@ -1,0 +1,206 @@
+Welcome back. In the previous lesson, we learned how vaccines
+work in general and specifically how
+mRNA vaccines work. In this lesson, we'll learn about some
+other attributes of mRNA vaccines that make them so promising for future
+vaccine development. We'll also learn about
+some current limitations requiring additional research. Please take a moment to review the learning objectives
+for this lesson. One beneficial feature of mRNA vaccines is that they
+can be readily multiplexed. This means that instead
+of just delivering a single mRNA sequence supplying the instructions to
+make only one protein, several different mRNAs can be combined and delivered
+in a single vaccine. Multiplexing is
+especially useful when the antigen is a
+multi-protein complex. In the case of
+cytomegalovirus, CMV, one key antigen is a complex of five different
+protein subunits. Combining all five mRNAs, each encoding the
+instructions to make one of the
+individual subunits, into a single vaccine enables antigen-presenting
+cells to produce all five proteins
+simultaneously, assemble them properly,
+and efficiently display the complete complex
+on their outer surface. This multi-protein
+complex generates a much more robust
+immune response than if only one
+subunit were displayed. In addition to the five mRNAs encoding the
+multi-protein complex, Moderna's CMV vaccine contains a sixth mRNA encoding
+the CMV gB protein. This protein serves as
+an additional antigen, enabling an even more
+robust immune response against cytomegalovirus. Similarly, multiplexing
+mRNAs into a single vaccine also makes it possible to create combination vaccines against
+multiple infectious agents. You're likely to remember that the SARS-CoV-2
+virus evolved over time to produce
+different variants that also spread globally. In response, new
+bivalent mRNA vaccines containing two different
+mRNA sequences were developed to protect against both the original
+Wuhan strain of SARS-CoV-2 and a later
+emerging variant. The future, mRNA
+vaccine makers envision developing combination
+vaccines against multiple different
+viruses at once, such as a combination
+respiratory vaccine against respiratory
+syncytial virus, also known as RSV, SARS-CoV-2, and seasonal flu. With combination or
+multiplexed vaccines, you might be wondering how
+drug makers manage to ensure that each LNP contains
+all the different mRNAs. Actually, this isn't necessary. Each mRNA sequence
+has its own potency, which is a measure of
+strength or power. In other words, how many
+mRNA molecules are needed to create enough protein to elicit an appropriate
+immune response? Because some antigens are
+more immunogenic than others, different antigens require
+different amounts of mRNA to elicit the
+desired immune response. For most multiplexed vaccines, the different mRNAs
+are mixed together at a predetermined ratio based on their individual potencies, and then loaded randomly
+into lipid nanoparticles. Because the LNPs are so small, each one can only hold
+a few mRNA molecules, but a single vaccine injection contains trillions
+of individual LNPs, and each antigen-presenting
+cell likely takes up tens to hundreds of these
+individual lipid nanoparticles. As a result, all of the
+different mRNA molecules are efficiently delivered
+regardless of which LNP brought them there. In theory, there's no limit to the number of different mRNAs
+that can be multiplexed. mRNA vaccines are
+limited, however, by the maximum tolerated
+dose or MTD of the LNP. That is the largest
+amount of LNP that can be dosed without causing severe
+side effects or reactions. As the number of different
+mRNA sequences increases, the amount of each
+individual mRNA must decrease to stay under the
+maximum tolerated LNP dose. The limitation to
+the number of mRNAs that can be included in a
+single vaccine, therefore, is not how many
+different mRNAs can be packaged into a
+single LNP particle, but how much of each individual mRNA is needed to elicit the
+appropriate immune response. For this reason, creating multiplexed or
+combination vaccines requires significant
+research and optimization to determine
+the right proportion of mRNA sequences to get an appropriate immune
+response to every antigen. Now, let's talk
+about the resources and time required to
+develop vaccines. In this section, we'll compare the traditional
+process for making annual flu vaccines to the process for
+making mRNA vaccines. Most current-day flu
+vaccines, for example, are made from flu virus grown in fertilized chicken eggs with each egg providing only
+a single vaccine dose. That means more than 100
+million eggs are required every year just to make enough
+vaccine for the US alone. Imagine how many chickens are required to lay
+100 million eggs, and then how much
+space is needed to raise the chickens
+and store the eggs. The space where the eggs are kept also has to be carefully, environmentally controlled
+for temperature and humidity to keep
+the eggs alive. That's a lot of animals, space, and energy annually. Other traditional vaccines are created from pathogens grown in large bioreactors
+using various types of tissue culture cells. These might be mammalian
+or insect cells. In contrast to
+current flu vaccines, 100 million doses of an mRNA vaccine require
+no chickens or eggs. A hundred million doses of an
+mRNA vaccine can be made in 10-20 large scale
+biochemical reactions using equipment no bigger
+than a large refrigerator. So mRNA vaccines have much lower resource
+requirements and, importantly, no animals or animal products are needed
+to make mRNA vaccines. Another advantage
+of mRNA vaccines compared to flu
+vaccines grown in chicken eggs is that mRNA vaccines can be
+produced very quickly. Moderna's original
+SARS-CoV-2 vaccine was manufactured and quality
+controlled in just 42 days, whereas producing a
+new flu vaccine from chicken eggs takes 5-7 months. Unfortunately, because
+flu mutates so rapidly, it's possible for the
+genetic makeup of circulating virus variants
+to drift substantially between the time
+vaccine manufacturing begins and when the vaccine is ready to go into
+people's arms. Further, because
+the flu vaccine is made from live viruses
+grown in eggs, there can also be genetic drift happening in the
+eggs themselves. These twin drifts contribute
+to lower vaccine efficacy. Dependent on the year, current flu vaccines vary
+from 60% to just under 40%. In comparison, there's
+no possibility of genetic drift in the mRNA
+vaccine manufacturing process. Combined with their much
+shorter manufacturing times, mRNA vaccines are
+likely to better match circulating viral variance at
+the time of administration. Therefore, mRNA vaccines
+against annual flu and other fast-mutating seasonal
+viruses could ultimately result in increased
+effectiveness compared to the
+current standard. Finally, the relatively small infrastructure
+requirements for making mRNA vaccines means that manufacturing sites can be distributed
+throughout the world. For most medicines, the
+production process and infrastructure
+requirements are highly specific to that
+individual medicine. Therefore, they tend
+to be produced in just a few centralized
+facilities and then distributed from there. In contrast, an mRNA sequence is simply
+a string of letters that can be stored digitally and sent anywhere in the
+world instantaneously. Thus, once researchers
+have determined an optimal mRNA sequence
+for a particular purpose, it can be sent out
+to a network of small manufacturing
+facilities for local manufacturing
+and distribution. Because all mRNA molecules are made of just four
+building blocks, the materials
+required to produce different mRNAs are the same regardless of
+their final sequence. Similarly, the ingredients and processes for making lipid
+nanoparticles is the same, regardless of the mRNA sequence or sequences being encapsulated. This makes it very
+simple to replicate the entire process for local
+production and distribution. In the future, by enabling local public health
+authorities to quickly respond
+to new outbreaks, this could help
+decrease the spread of novel infectious
+agents locally, and therefore the threat of
+another worldwide pandemic. Manufacturing facilities
+for mRNA vaccines now exist on every continent
+except Antarctica. There are also
+efforts underway to miniaturize the entire
+manufacturing process so that it can fit into a
+single cargo container ready to be shipped anywhere in the world at a
+moment's notice. Future innovations
+might even enable mRNA vaccines to be
+made on the bench top. In contrast to their
+many advantages, mRNA vaccines do currently have some notable disadvantages. One is the relative
+fragility of mRNA. You may remember that the original SARS-CoV-2
+vaccines had to be shipped and stored at ultracold
+temperatures and administered very soon after
+being allowed to thaw. This fragility is partly due
+to RNA's chemical structure. It has a tendency to
+break into pieces. The rate at which this happens is highly temperature-dependent. So degradation of intact vaccine is significantly slower
+when it's frozen. Given the severity of the SARS-CoV-2
+pandemic and the lack of other alternatives, these strict
+temperature conditions were tolerated at that time. But maintaining a functional
+cold chain is very expensive and generally limited to more affluent and
+populated regions. Therefore, a strict
+cold chain requirement is not desirable under
+normal circumstances. The good news is that, in the time since the first SARS-CoV-2
+vaccines were distributed, mRNA vaccine manufacturers have already made tremendous progress in slowing down the
+chemical reactions that inactivate mRNA vaccines. For example, as of the recording of this
+course, mid 2024, Moderna's updated versions of SARS-CoV-2 vaccines can be stored for up to a month
+in the refrigerator, and there are other ways to preserve mRNA vaccine potency. For example, they
+can be lyophilized, which means the vaccine is dehydrated and stored
+as a dry powder. This powder can then
+be reconstituted with liquid immediately
+prior to administration. Alternatively, researchers are investigating
+the possibility of incorporating mRNA vaccines into solid microneedle patches. Microneedle patches
+could potentially be stored at ambient
+temperature would be easy to transport anywhere in the world
+and could be administered simply by applying the patch to the skin like an
+adhesive bandage. An additional advantage
+of microneedles is that they only penetrate into the
+dermis layer of the skin, not the underlying muscle. Our skin is the primary barrier that prevents entry
+of infectious agents. Accordingly, the dermis has even more
+antigen-presenting cells called Langerhan cells
+than do skeletal muscles. So although intramuscular
+injection is a very common means for
+vaccine administration, intradermal administration
+can generate even stronger responses
+with smaller doses. Similarly, the greatest
+protection against pathogens that enter the body
+through a mucosal pathway, such as the respiratory system, is achieved by delivering the vaccine to the
+relevant mucosal lining. This stimulates a much
+stronger mucosal immunity. In addition to microneedles, numerous efforts are now underway to develop
+mRNA vaccines that can be delivered
+to the respiratory or other mucosal systems. Undoubtedly, now that
+the first mRNA vaccines have proven safe and effective, the next few years will see rapid advancement in mRNA
+vaccine technologies, both to make them more
+stable and to increase their effectiveness against a broad range of
+infectious agents. With that thought,
+our discussion of prophylactic mRNA vaccines
+has come to an end. In the next lesson, we'll turn our attention
+to mRNA medicines being developed to treat disease
+instead of just prevent it.

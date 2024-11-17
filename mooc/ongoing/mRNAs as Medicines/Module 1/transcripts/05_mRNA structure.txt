@@ -1,0 +1,41 @@
+Welcome back, in the previous two lessons,
+we've learned that proteins are strings of amino acid building blocks that
+self-assemble into complex 3D structures and that the human body makes hundreds
+of thousands of different proteins. Further, different cell types make
+different sets of proteins to enable each cell type to perform
+its specific function. Thus, your liver cells contain a different
+set of proteins than your muscle cells. But how does each cell type know
+which proteins to make and how much? Where do the instructions come from? You will learn the answers
+to these questions and more in this lesson on mRNA structure. Please take a moment to review
+the learning objectives for this lesson. Going back to our building analogy,
+the instructions for creating a building are in
+the form of blueprints. The same is true for proteins. The blueprints for proteins are called
+messenger RNAs or mRNAs for short. As their name implies,
+messenger RNAs carry messages, messages for how to make proteins. Now, let's watch a short video to learn
+more about mRNAs and their structure. Like proteins,
+mRNAs can fold up into complex structures. This is because the nitrogenous bases
+compare with one another to form a double strand. These double stranded regions intersperse
+with single stranded regions to form complex, floppy structures. We can directly visualize mRNA
+structures using a technique called atomic force microscopy, or AFM. The principle of AFM is
+really quite simple. It involves dragging a very,
+very fine needle across a surface on which is deposited the tiny
+object one wants to image. As the needle is dragged
+across the surface, it has to move first up and
+then down to get past the object. The different heights are then
+detected by a laser and recorded. With repeated passes,
+a three-dimensional image develops. This image shows three identical
+883 nucleotide mRNA molecules that contain the blueprints for
+green fluorescent protein, or GFP, a protein that makes
+jellyfish glow under UV light. What you can see is that even though
+they have exactly the same pattern of A, C, G and U, that is,
+they have the same nucleotide sequence, each individual molecule
+folds in a different way. This next image shows many more molecules
+of different mRNAs that contain the blueprints for GFP, for firefly
+luciferase, which is the protein that enables fireflies to glow, or
+the SARS-CoV-2 spike protein. In fact, this last mRNA is exactly
+the mRNA sequence that went into Moderna's original Covid-19 vaccine. So what you can see is
+that mRNAs are floppy, string-like molecules that fold
+up into a variety of structures. In many ways, these structures resemble those formed
+by old fashioned telephone cords. So now, we understand what mRNAs are and
+their basic structure. In the next lesson, we'll learn how the information stored
+in mRNA is decoded to create proteins.
